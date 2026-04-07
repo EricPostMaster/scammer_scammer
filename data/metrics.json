@@ -1,0 +1,10 @@
+{
+  "calls": [
+    {
+      "call_id": "CAa9827279e88979fe95f1da0818ef21bb",
+      "duration": 111.8,
+      "turns": 4,
+      "scam_type": "medicare"
+    }
+  ]
+}

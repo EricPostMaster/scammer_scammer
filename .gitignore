@@ -3,7 +3,5 @@ __pycache__/
 *.pyc
 audio/*.mp3
 tmp_audio.mp3
-data/call_logs.json
-data/metrics.json
 .venv/
 venv/

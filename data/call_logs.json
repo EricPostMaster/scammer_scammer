@@ -1,0 +1,25 @@
+{
+  "CAa9827279e88979fe95f1da0818ef21bb": {
+    "start_time": 1775589516.130245,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "transcript": "Hi, my name is Eric. I'm calling from Medicare about your account.",
+        "response": "Oh, hello Eric! Can you speak up a bit? I'm a little hard of hearing. Now, what was that about my account again?"
+      },
+      {
+        "transcript": "Yeah, your Medicare account is delinquent and I need to confirm some information from you.",
+        "response": "Oh dear, delinquent? That sounds serious! Now, which information do you need to confirm? I just got out of the hospital, and my head\u2019s a bit fuzzy\u2026 uh, what do you need?"
+      },
+      {
+        "transcript": "Yeah, I need your Medicare account number as well as your current address and phone number.",
+        "response": "Okay, let me, uh, find my purse... I usually keep everything in there. Now, what was that Medicare number again? I think it\u2019s AB12345\u2026 no, wait, AB12365? Sorry, it's so confusing!"
+      },
+      {
+        "transcript": "Which one is it, lady?",
+        "response": "I\u2019m sorry! I\u2019m just a bit slow today. Let me, um, look again. Was it AB12345 or was it the other one? Could you repeat it for me, please?"
+      }
+    ],
+    "end_time": 1775589627.8939037
+  }
+}
