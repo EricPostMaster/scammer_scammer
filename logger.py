@@ -19,19 +19,64 @@ def _save(path: Path, data: dict):
 def init_call(call_id: str):
     """Record the start of a new call."""
     logs = _load(LOGS_FILE)
-    logs[call_id] = {"start_time": time.time(), "scam_type": "unknown", "turns": []}
+    logs[call_id] = {
+        "start_time": time.time(),
+        "scam_type": "unknown",
+        "turns": [],
+        "conversation": []
+    }
     _save(LOGS_FILE, logs)
 
 
-def log_turn(call_id: str, transcript: str, response: str, scam_type: str):
-    """Append a turn to the call log and refresh aggregated metrics."""
+def log_turn(call_id: str, transcript: str, response: str, scam_type: str, timings: dict = None):
+    """Append a turn to the call log with timing details and refresh aggregated metrics."""
+    if timings is None:
+        timings = {}
+    
     logs = _load(LOGS_FILE)
-    entry = logs.setdefault(call_id, {"start_time": time.time(), "turns": []})
-    entry["turns"].append({"transcript": transcript, "response": response})
+    entry = logs.setdefault(call_id, {
+        "start_time": time.time(), 
+        "turns": [],
+        "conversation": [],
+        "scam_type": "unknown"
+    })
+    
+    # Ensure conversation key exists (defensive)
+    if "conversation" not in entry:
+        entry["conversation"] = []
+    
+    turn_number = len(entry["turns"]) + 1
+    turn_entry = {
+        "turn": turn_number,
+        "timestamp": time.time(),
+        "caller_transcript": transcript,
+        "bot_response": response,
+        "scam_type": scam_type,
+    }
+    
+    # Add timing details if provided
+    if timings:
+        turn_entry["timings_ms"] = {k: round(v * 1000, 1) for k, v in timings.items()}
+    
+    entry["turns"].append(turn_entry)
+    
+    # Add to conversation log with clear labels
+    entry["conversation"].append({"role": "caller", "text": transcript, "timestamp": time.time()})
+    entry["conversation"].append({"role": "bot", "text": response, "timestamp": time.time()})
+    
     entry["scam_type"] = scam_type
     entry["end_time"] = time.time()
     _save(LOGS_FILE, logs)
     _update_metrics(call_id, entry)
+    
+    # Print timing info to console for real-time visibility
+    if timings:
+        total_ms = timings.get('total', 0) * 1000
+        print(f"[TURN_COMPLETE] Call={call_id[:8]}... | Total={total_ms:.0f}ms | "
+              f"STT={timings.get('stt', 0)*1000:.0f}ms | "
+              f"LLM={timings.get('llm', 0)*1000:.0f}ms | "
+              f"TTS={timings.get('tts', 0)*1000:.0f}ms | "
+              f"Classify={timings.get('classify', 0)*1000:.0f}ms")
 
 
 def _update_metrics(call_id: str, entry: dict):

@@ -21,5 +21,612 @@
       }
     ],
     "end_time": 1775589627.8939037
+  },
+  "CAdf214f6754722bd246a60978bcafaed8": {
+    "start_time": 1775592814.1733596,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "transcript": "Thank you.",
+        "response": "Uh, hello? Can you say that again? I didn't quite catch it. What was that now?"
+      },
+      {
+        "transcript": "Yep, I'm calling from the mortgage company. Your account is in trouble.",
+        "response": "Oh dear, in trouble, you say? Now, what was that account number again? Was it 00123456? Or wait, I have this paper... let me see... hold on a moment!"
+      }
+    ],
+    "end_time": 1775592863.3400059
+  },
+  "CA11e8464f77597e881376981334c55fa1": {
+    "start_time": 1775592886.1921086,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "transcript": "Yes, hello, this is Eric, I'm calling from PRC Bank.",
+        "response": "Oh, hello there, Eric! Now, what company did you say you were from again? I\u2019m having a little trouble hearing you. Could you speak up a bit? My cat, Mittens, was just meowing over here."
+      },
+      {
+        "transcript": "I'm from PRC Bank and I am calling because your mortgage is delinquent. You've missed two payments and your payment",
+        "response": "Oh dear, a mortgage? That\u2019s my late husband's thing... he used to handle all of that. Now, um, what was that number you said again? I\u2019m not sure I caught it properly. You said two payments? Is that right?"
+      },
+      {
+        "transcript": "Yes, that's correct. Two payments. And we need updated payment info. I need your credit card information so that I can update your payment information.",
+        "response": "Oh goodness, a credit card? Let me see, I have a couple of cards in my purse. Now, hold on, I need to find it... My grandson set up the computer for me, but I don't quite remember everything. Could you repeat what you need? Just a tad slower, please!"
+      }
+    ],
+    "end_time": 1775592970.3119483
+  },
+  "CA12a6ae5a7048686c8cc4fb3012089a27": {
+    "start_time": 1775593134.2619023,
+    "scam_type": "romance",
+    "turns": [
+      {
+        "transcript": "Yes, hi, my name is Eric and I am looking for Dorothy.",
+        "response": "Oh dear, is this Eric? It\u2019s Harold... or wait, Dorothy? I always get confused. Now, what was your name again? And what company did you say you were from? I can hardly hear you, could you speak up a little?"
+      },
+      {
+        "transcript": "And I am calling you from Turkey. We've spoken on the online dating app Silver Singles multiple times.",
+        "response": "Oh, Silver Singles! Yes, yes, I remember that... or is it Silver Surfers? It\u2019s so hard for me to keep track. Now, hold on a moment while I find my notes, just let me rummage through my purse. Can you repeat your name again, dear? Eric, right?"
+      },
+      {
+        "transcript": "Yep, Eric, and I just need you to send me some prepaid visa cards so that I can buy a plane ticket to...",
+        "response": "Oh, prepaid visa cards! Now, is that the one I have that starts with 4111? Or was it 4112? Hold on, let me get my glasses... You know, my grandson set up this whole computer thing for me, but I still can\u2019t find anything. Could you spell your name for me, Eric? Just to make sure I\u2019ve got it right, dear."
+      }
+    ],
+    "end_time": 1775593224.7493634
+  },
+  "CA75990ab712e2c9d961ad8196dd3c94f9": {
+    "start_time": 1775593378.9519534,
+    "scam_type": "unknown",
+    "turns": []
+  },
+  "CA2089de9f0ca405d36edcc37461891487": {
+    "start_time": 1775593455.5744247,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775593469.622529,
+        "caller_transcript": "you",
+        "bot_response": "Oh, I'm sorry, dear, can you speak up a bit? I couldn't quite catch that. What were you saying?",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 3046.6,
+          "classify": 0.0,
+          "pause": 21.8,
+          "llm": 918.4,
+          "tts": 1939.7,
+          "total": 5927.5
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775593492.3736424,
+        "caller_transcript": "Yep, this is Eric from Medicare headquarters in Lake City, Utah. I'm calling about your account information, which has been compromised.",
+        "bot_response": "Oh goodness, compromised? That sounds serious. Now, what was that number again? I need to find my reading glasses\u2014hold on... let me grab them.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2716.7,
+          "classify": 0.0,
+          "pause": 23.5,
+          "llm": 795.2,
+          "tts": 3301.9,
+          "total": 6837.9
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775593509.6158447,
+        "caller_transcript": "you",
+        "bot_response": "I'm sorry, dear, I didn't quite catch that. Could you repeat it for me? It's a little hard to hear sometimes.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1676.2,
+          "classify": 0.0,
+          "pause": 22.6,
+          "llm": 1518.1,
+          "tts": 2520.8,
+          "total": 5738.9
+        }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775593532.4930246,
+        "caller_transcript": "Yep, I need your Medicare account number and your current address.",
+        "bot_response": "Oh, right! My Medicare account number... let me think. Is it AB12345? Oh wait, no! I mean AB12365... or was it 12375? I'm so mixed up! And my address is... um... 742 Evergreen Terrace? No, hold on, I always mix that up. I think it\u2019s 724... something. What did you say?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1944.2,
+          "classify": 0.0,
+          "pause": 28.7,
+          "llm": 1888.6,
+          "tts": 4728.9,
+          "total": 8591.7
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "you",
+        "timestamp": 1775593469.622529
+      },
+      {
+        "role": "bot",
+        "text": "Oh, I'm sorry, dear, can you speak up a bit? I couldn't quite catch that. What were you saying?",
+        "timestamp": 1775593469.622529
+      },
+      {
+        "role": "caller",
+        "text": "Yep, this is Eric from Medicare headquarters in Lake City, Utah. I'm calling about your account information, which has been compromised.",
+        "timestamp": 1775593492.3736424
+      },
+      {
+        "role": "bot",
+        "text": "Oh goodness, compromised? That sounds serious. Now, what was that number again? I need to find my reading glasses\u2014hold on... let me grab them.",
+        "timestamp": 1775593492.3736424
+      },
+      {
+        "role": "caller",
+        "text": "you",
+        "timestamp": 1775593509.6158447
+      },
+      {
+        "role": "bot",
+        "text": "I'm sorry, dear, I didn't quite catch that. Could you repeat it for me? It's a little hard to hear sometimes.",
+        "timestamp": 1775593509.6158447
+      },
+      {
+        "role": "caller",
+        "text": "Yep, I need your Medicare account number and your current address.",
+        "timestamp": 1775593532.4930246
+      },
+      {
+        "role": "bot",
+        "text": "Oh, right! My Medicare account number... let me think. Is it AB12345? Oh wait, no! I mean AB12365... or was it 12375? I'm so mixed up! And my address is... um... 742 Evergreen Terrace? No, hold on, I always mix that up. I think it\u2019s 724... something. What did you say?",
+        "timestamp": 1775593532.4930246
+      }
+    ],
+    "end_time": 1775593532.4930246
+  },
+  "CA9071afee7c903b39413cb677c45b6489": {
+    "start_time": 1775594413.8574028,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA34867f1335395dd328c93db3d885a207": {
+    "start_time": 1775594433.4337656,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA0e81fdf255fb8349d40b4349cced7658": {
+    "start_time": 1775594491.61366,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CAd16e81e4ee85a3ee91c4c0a8633a6da3": {
+    "start_time": 1775594514.112633,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775594542.6916475,
+        "caller_transcript": "Yes, hi, I'm calling from Medicare. I need to update your information because it was stolen by hackers.",
+        "bot_response": "Oh goodness, stole what now? My head is still a little fuzzy, you know, I just got out of the hospital last week. Now, what information do you need again? I'm looking for my purse... um, let me see...",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 3875.4,
+          "classify": 0.0,
+          "pause": 28.7,
+          "llm": 2225.3,
+          "tts": 7294.0,
+          "total": 13424.7
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yes, hi, I'm calling from Medicare. I need to update your information because it was stolen by hackers.",
+        "timestamp": 1775594542.6916475
+      },
+      {
+        "role": "bot",
+        "text": "Oh goodness, stole what now? My head is still a little fuzzy, you know, I just got out of the hospital last week. Now, what information do you need again? I'm looking for my purse... um, let me see...",
+        "timestamp": 1775594542.6916475
+      }
+    ],
+    "end_time": 1775594542.6916475
+  },
+  "CA32100dcf101ea64653a87e9fcf1a142f": {
+    "start_time": 1775594690.7496433,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775594716.1783485,
+        "caller_transcript": "Hi, I'm calling from Medicare about your account. It's been compromised.",
+        "bot_response": "Oh dear! Compromised, you say? Uh... now, could you repeat that? My hearing isn\u2019t what it used to be. I think I need to find my reading glasses if I'm going to keep up with all this!",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1932.9,
+          "classify": 0.0,
+          "pause": 22.6,
+          "llm": 1662.1,
+          "tts": 4301.0,
+          "total": 7919.5
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775594742.7293396,
+        "caller_transcript": "Yes, definitely get your reading glasses, your reading glasses and your credit card.",
+        "bot_response": "Oh, credit card? Wait a moment... my glasses, yes! Hold on, I need to, um, find my purse. It's got to be somewhere here\u2026 I can be so scatterbrained! What was that number you mentioned again?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1704.5,
+          "classify": 0.0,
+          "pause": 26.6,
+          "llm": 1505.8,
+          "tts": 3981.0,
+          "total": 7218.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hi, I'm calling from Medicare about your account. It's been compromised.",
+        "timestamp": 1775594716.1783485
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear! Compromised, you say? Uh... now, could you repeat that? My hearing isn\u2019t what it used to be. I think I need to find my reading glasses if I'm going to keep up with all this!",
+        "timestamp": 1775594716.1783485
+      },
+      {
+        "role": "caller",
+        "text": "Yes, definitely get your reading glasses, your reading glasses and your credit card.",
+        "timestamp": 1775594742.7293396
+      },
+      {
+        "role": "bot",
+        "text": "Oh, credit card? Wait a moment... my glasses, yes! Hold on, I need to, um, find my purse. It's got to be somewhere here\u2026 I can be so scatterbrained! What was that number you mentioned again?",
+        "timestamp": 1775594742.7293396
+      }
+    ],
+    "end_time": 1775594742.7293396
+  },
+  "CA135f51cf8f55fe78f2f6f192b4310ad3": {
+    "start_time": 1775594894.5414,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775594932.381512,
+        "caller_transcript": "I'm calling from Medicare. I need your new information.",
+        "bot_response": "Oh, hello there! Now, what was that number you needed? Um, let me see... my Medicare ID? I think it's AB12345... no, wait, I mean AB12365. Or, was it 13265? I'm so mixed up these days!",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2704.5,
+          "classify": 0.0,
+          "pause": 21.5,
+          "llm": 10553.8,
+          "tts": 4880.1,
+          "total": 18160.4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "I'm calling from Medicare. I need your new information.",
+        "timestamp": 1775594932.381512
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there! Now, what was that number you needed? Um, let me see... my Medicare ID? I think it's AB12345... no, wait, I mean AB12365. Or, was it 13265? I'm so mixed up these days!",
+        "timestamp": 1775594932.381512
+      }
+    ],
+    "end_time": 1775594932.381512
+  },
+  "CA18bb0a4326577879a192e259dcdafdcd": {
+    "start_time": 1775595019.597439,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA18fb25851afc8ed14e080fece5935940": {
+    "start_time": 1775595277.7875874,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA84606e94cc9413afc0a4cac4ae49ef31": {
+    "start_time": 1775595323.7766504,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775595347.6101663,
+        "caller_transcript": "[silence or inaudible]",
+        "bot_response": "Sorry, dear, I didn\u2019t catch that. Could you say it again, please? I\u2019m having a bit of trouble hearing.",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 577.4,
+          "classify": 0.0,
+          "pause": 21.4,
+          "llm": 1576.3,
+          "tts": 3376.6,
+          "total": 5553.2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "[silence or inaudible]",
+        "timestamp": 1775595347.6101663
+      },
+      {
+        "role": "bot",
+        "text": "Sorry, dear, I didn\u2019t catch that. Could you say it again, please? I\u2019m having a bit of trouble hearing.",
+        "timestamp": 1775595347.6101663
+      }
+    ],
+    "end_time": 1775595347.6101663
+  },
+  "CA2ada8c2d335cf5b1270d88ab607304d1": {
+    "start_time": 1775595325.8222373,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA35226deb2a88619ff7bccec288798f80": {
+    "start_time": 1775595411.2191525,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775595432.757566,
+        "caller_transcript": "No problem, I'm calling from Medicare and I need to update your records.",
+        "bot_response": "Oh, hello there! Medicare, you say? I just got out of the hospital and my head feels a bit fuzzy. Now, what was your name again? I\u2019m having a little trouble hearing you.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2514.6,
+          "classify": 0.0,
+          "pause": 23.3,
+          "llm": 1873.9,
+          "tts": 1145.4,
+          "total": 5557.9
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775595457.6429105,
+        "caller_transcript": "Yeah, my name is Derek and I need to confirm your Medicare member number.",
+        "bot_response": "Derek, right! Let me just put you on hold for a moment, I need to find my reading glasses. They keep getting mixed up with my cat's toys. Uh, now... what was that number again? I think it was... 123... no, wait... was it AB12345 or... um... can you help me out?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1343.6,
+          "classify": 0.0,
+          "pause": 24.4,
+          "llm": 1742.2,
+          "tts": 1619.2,
+          "total": 4730.6
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775595494.3078387,
+        "caller_transcript": "Yeah, I don't think anybody can help you.",
+        "bot_response": "Oh dear, I hope I'm not being a bother! Just hold on a second, let me find my purse. I know I've got my Medicare card here somewhere... or is it my grocery list? I do get those mixed up sometimes. Now, about that number... could you say it again? I'm so sorry!",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1677.1,
+          "classify": 0.0,
+          "pause": 29.6,
+          "llm": 2553.0,
+          "tts": 1395.8,
+          "total": 5656.5
+        }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775595527.0972888,
+        "caller_transcript": "You're being ridiculous, you senile old coot. Why are you wasting my time?",
+        "bot_response": "Oh my, I didn\u2019t mean to waste your time, Derek! It\u2019s just so confusing sometimes, you know? The other day, I couldn't remember if I had fed my cat or if I was waiting for the news to come on! Now, about that number... was it 123-45-6789 or... oh, I'm fumbling around here. Can you help me out just one more time, dear?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1929.1,
+          "classify": 0.0,
+          "pause": 26.0,
+          "llm": 1631.6,
+          "tts": 1522.1,
+          "total": 5109.9
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "No problem, I'm calling from Medicare and I need to update your records.",
+        "timestamp": 1775595432.757566
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there! Medicare, you say? I just got out of the hospital and my head feels a bit fuzzy. Now, what was your name again? I\u2019m having a little trouble hearing you.",
+        "timestamp": 1775595432.757566
+      },
+      {
+        "role": "caller",
+        "text": "Yeah, my name is Derek and I need to confirm your Medicare member number.",
+        "timestamp": 1775595457.6429105
+      },
+      {
+        "role": "bot",
+        "text": "Derek, right! Let me just put you on hold for a moment, I need to find my reading glasses. They keep getting mixed up with my cat's toys. Uh, now... what was that number again? I think it was... 123... no, wait... was it AB12345 or... um... can you help me out?",
+        "timestamp": 1775595457.6429105
+      },
+      {
+        "role": "caller",
+        "text": "Yeah, I don't think anybody can help you.",
+        "timestamp": 1775595494.3078387
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, I hope I'm not being a bother! Just hold on a second, let me find my purse. I know I've got my Medicare card here somewhere... or is it my grocery list? I do get those mixed up sometimes. Now, about that number... could you say it again? I'm so sorry!",
+        "timestamp": 1775595494.3078387
+      },
+      {
+        "role": "caller",
+        "text": "You're being ridiculous, you senile old coot. Why are you wasting my time?",
+        "timestamp": 1775595527.0972888
+      },
+      {
+        "role": "bot",
+        "text": "Oh my, I didn\u2019t mean to waste your time, Derek! It\u2019s just so confusing sometimes, you know? The other day, I couldn't remember if I had fed my cat or if I was waiting for the news to come on! Now, about that number... was it 123-45-6789 or... oh, I'm fumbling around here. Can you help me out just one more time, dear?",
+        "timestamp": 1775595527.0972888
+      }
+    ],
+    "end_time": 1775595527.0972888
+  },
+  "CA1a8c10334822fb1dba7281eb781be8b3": {
+    "start_time": 1775595764.1499362,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775595788.546037,
+        "caller_transcript": "Wow. Hi, this is, um, Eric calling from Silver Single. We're supposed to meet up for a date last night, and you never...",
+        "bot_response": "Oh dear, um, could you repeat that a bit more slowly? I didn't quite catch it. Was it Eric from, uh, Silver something? I don\u2019t quite remember a date... what date was it again?",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 1656.9,
+          "classify": 0.0,
+          "pause": 25.6,
+          "llm": 1236.4,
+          "tts": 3988.0,
+          "total": 6907.9
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775595816.6210194,
+        "caller_transcript": "What, you remember me, Eric, from Silver Singles? I'm 6'4\", former tennis champion. I thought you were excited about that.",
+        "bot_response": "Oh, goodness, I\u2019m so sorry, Eric, my hearing isn\u2019t what it used to be. So, Silver Singles, right? Um, 6'4\", you say? Oh my stars, that\u2019s quite tall! Now, what was that date again? I\u2019m fumbling around",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 1766.8,
+          "classify": 0.0,
+          "pause": 29.2,
+          "llm": 1575.7,
+          "tts": 3815.2,
+          "total": 7188.2
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775595839.5366063,
+        "caller_transcript": "Thank you.",
+        "bot_response": "Oh, you\u2019re welcome, dear! Just hold on a moment, let me turn down the TV\u2014it\u2019s always a bit too loud when I\u2019m on the phone. What was that you said about the date? I want to make sure I don\u2019t miss anything!",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 2006.1,
+          "classify": 0.0,
+          "pause": 23.1,
+          "llm": 1469.7,
+          "tts": 4327.3,
+          "total": 7826.3
+        }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775595865.6594737,
+        "caller_transcript": "Yeah you did, you missed our date yesterday.",
+        "bot_response": "Oh my, did I really miss it? Now, was that yesterday the 14th or... oh dear, I\u2019m not so good with numbers these days. My grandson usually helps me with that! What time were we supposed to meet, Eric? I\u2019m just trying to find my calendar here",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 1974.8,
+          "classify": 0.0,
+          "pause": 26.9,
+          "llm": 1735.9,
+          "tts": 2842.8,
+          "total": 6581.6
+        }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775595899.1613705,
+        "caller_transcript": "Yeah, let's meet tomorrow at 7pm.",
+        "bot_response": "Tomorrow at 7 PM, got it, I think! Just, um, one moment\u2014let me find a pen. My purse is always such a mess! Now, what was that number again? Is it 555 or 744? Oh dear, I\u2019m all mixed up!",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 2196.0,
+          "classify": 0.0,
+          "pause": 22.0,
+          "llm": 1436.4,
+          "tts": 4634.4,
+          "total": 8289.8
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Wow. Hi, this is, um, Eric calling from Silver Single. We're supposed to meet up for a date last night, and you never...",
+        "timestamp": 1775595788.546037
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, um, could you repeat that a bit more slowly? I didn't quite catch it. Was it Eric from, uh, Silver something? I don\u2019t quite remember a date... what date was it again?",
+        "timestamp": 1775595788.546037
+      },
+      {
+        "role": "caller",
+        "text": "What, you remember me, Eric, from Silver Singles? I'm 6'4\", former tennis champion. I thought you were excited about that.",
+        "timestamp": 1775595816.6210194
+      },
+      {
+        "role": "bot",
+        "text": "Oh, goodness, I\u2019m so sorry, Eric, my hearing isn\u2019t what it used to be. So, Silver Singles, right? Um, 6'4\", you say? Oh my stars, that\u2019s quite tall! Now, what was that date again? I\u2019m fumbling around",
+        "timestamp": 1775595816.6210194
+      },
+      {
+        "role": "caller",
+        "text": "Thank you.",
+        "timestamp": 1775595839.5366063
+      },
+      {
+        "role": "bot",
+        "text": "Oh, you\u2019re welcome, dear! Just hold on a moment, let me turn down the TV\u2014it\u2019s always a bit too loud when I\u2019m on the phone. What was that you said about the date? I want to make sure I don\u2019t miss anything!",
+        "timestamp": 1775595839.5366063
+      },
+      {
+        "role": "caller",
+        "text": "Yeah you did, you missed our date yesterday.",
+        "timestamp": 1775595865.6594737
+      },
+      {
+        "role": "bot",
+        "text": "Oh my, did I really miss it? Now, was that yesterday the 14th or... oh dear, I\u2019m not so good with numbers these days. My grandson usually helps me with that! What time were we supposed to meet, Eric? I\u2019m just trying to find my calendar here",
+        "timestamp": 1775595865.6594737
+      },
+      {
+        "role": "caller",
+        "text": "Yeah, let's meet tomorrow at 7pm.",
+        "timestamp": 1775595899.1613705
+      },
+      {
+        "role": "bot",
+        "text": "Tomorrow at 7 PM, got it, I think! Just, um, one moment\u2014let me find a pen. My purse is always such a mess! Now, what was that number again? Is it 555 or 744? Oh dear, I\u2019m all mixed up!",
+        "timestamp": 1775595899.1613705
+      }
+    ],
+    "end_time": 1775595899.1613705
   }
 }

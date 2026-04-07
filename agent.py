@@ -63,6 +63,16 @@ FALLBACK_RESPONSES = [
 ]
 
 
+def get_greeting(greeting_text: str, call_id: str) -> str:
+    """Generate audio greeting in bot's voice (not added to conversation history)."""
+    try:
+        audio_file = tts.synthesize(greeting_text, call_id)
+        return audio_file
+    except Exception as e:
+        print(f"[GREETING] Failed to synthesize: {e}")
+        return None
+
+
 def handle_turn(audio_url: str, call_id: str) -> str:
     """
     Full agent turn:
@@ -73,18 +83,25 @@ def handle_turn(audio_url: str, call_id: str) -> str:
     5. Log everything
     Returns the filename of the TTS audio file.
     """
+    turn_start = time.time()
+    timings = {}
+    
     # Step 1 — transcribe
+    stt_start = time.time()
     try:
         transcript = stt.transcribe(audio_url)
     except Exception as e:
         print(f"[STT error] {e}")
         transcript = ""
+    timings['stt'] = time.time() - stt_start
 
     if not transcript.strip():
         transcript = "[silence or inaudible]"
 
     # Step 2 — classify
+    classify_start = time.time()
     scam_type = classifier.detect(transcript, call_id)
+    timings['classify'] = time.time() - classify_start
 
     # Step 3 — build messages
     system = SYSTEM_PROMPT + _build_dynamic_context(scam_type)
@@ -96,30 +113,38 @@ def handle_turn(audio_url: str, call_id: str) -> str:
         history[:] = history[-20:]
 
     # Step 4 — generate response
-    time.sleep(random.uniform(1.0, 2.5))  # natural human pause
+    pause_duration = random.uniform(0.02, 0.03)
+    time.sleep(pause_duration)
+    timings['pause'] = pause_duration
 
+    llm_start = time.time()
     try:
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "system", "content": system}] + history,
-            max_tokens=120,
+            max_tokens=60,
             temperature=0.9,
         )
         response_text = completion.choices[0].message.content.strip()
     except Exception as e:
         print(f"[LLM error] {e}")
         response_text = random.choice(FALLBACK_RESPONSES)
+    timings['llm'] = time.time() - llm_start
 
     history.append({"role": "assistant", "content": response_text})
 
     # Step 5 — synthesize
+    tts_start = time.time()
     try:
         audio_file = tts.synthesize(response_text, call_id)
     except Exception as e:
         print(f"[TTS error] {e}")
         audio_file = None
+    timings['tts'] = time.time() - tts_start
+
+    timings['total'] = time.time() - turn_start
 
     # Step 6 — log
-    logger.log_turn(call_id, transcript, response_text, scam_type)
+    logger.log_turn(call_id, transcript, response_text, scam_type, timings)
 
     return audio_file

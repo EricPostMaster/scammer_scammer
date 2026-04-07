@@ -1,5 +1,6 @@
 import os
 import traceback
+import time
 from fastapi import FastAPI, Form
 from fastapi.responses import Response
 from fastapi.staticfiles import StaticFiles
@@ -32,11 +33,17 @@ def incoming_call(CallSid: str = Form(...)):
         print(f"[INCOMING] CallSid: {CallSid}")
         logger.init_call(CallSid)
 
+        # Generate greeting with the bot's voice instead of Twilio's default
+        greeting_text = "Oh hello? One second dear, let me turn down the television..."
+        greeting_audio = agent.get_greeting(greeting_text, CallSid)
+
         resp = VoiceResponse()
-        resp.say(
-            "Oh hello? One second dear, let me turn down the television...",
-            voice="Polly.Joanna",
-        )
+        if greeting_audio:
+            resp.play(f"{BASE_URL}/audio/{greeting_audio}")
+        else:
+            # Fallback to Twilio voice if TTS fails
+            resp.say(greeting_text, voice="Polly.Joanna")
+        
         resp.record(
             action=f"{BASE_URL}/process_audio",
             method="POST",
@@ -62,8 +69,9 @@ def process_audio(
     CallStatus: str = Form(default="in-progress"),
 ):
     """Twilio hits this endpoint after each recording segment."""
+    request_start = time.time()
     try:
-        print(f"[PROCESS_AUDIO] CallSid: {CallSid}, Status: {CallStatus}")
+        print(f"[PROCESS_AUDIO] CallSid: {CallSid[:8]}..., Status: {CallStatus}")
         
         if CallStatus in ("completed", "canceled", "failed"):
             # Call ended — return empty TwiML
@@ -71,8 +79,13 @@ def process_audio(
             return twiml_response(str(VoiceResponse()))
 
         audio_url = RecordingUrl + ".mp3"
-        print(f"[PROCESS_AUDIO] Processing audio from: {audio_url}")
+        print(f"[PROCESS_AUDIO] Starting agent.handle_turn()...")
+        
+        handle_turn_start = time.time()
         audio_file = agent.handle_turn(audio_url, CallSid)
+        handle_turn_duration = time.time() - handle_turn_start
+        
+        print(f"[PROCESS_AUDIO] agent.handle_turn() completed in {handle_turn_duration*1000:.0f}ms")
 
         resp = VoiceResponse()
 
@@ -90,7 +103,9 @@ def process_audio(
             play_beep=False,
             timeout=3,
         )
-        print(f"[PROCESS_AUDIO] Response created successfully")
+        
+        total_request_time = time.time() - request_start
+        print(f"[PROCESS_AUDIO] Complete request handled in {total_request_time*1000:.0f}ms")
         return twiml_response(str(resp))
     except Exception as e:
         print(f"[ERROR] /process_audio failed: {e}")
