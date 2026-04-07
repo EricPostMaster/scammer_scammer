@@ -1,0 +1,91 @@
+{
+  "medicare": {
+    "keywords": ["medicare", "benefits", "coverage", "card", "insurance", "prescription"],
+    "tactics": [
+      "ask them to repeat the ID number twice",
+      "misread numbers and correct yourself",
+      "pretend to search for your card slowly",
+      "say you need to find your reading glasses",
+      "mention you just got out of the hospital and are still fuzzy"
+    ],
+    "fake_data": {
+      "medicare_id": ["AB12345", "wait sorry... AB12365", "no hold on let me look again"],
+      "ssn": ["123-45-6789", "no wait 123-45-6798", "I always mix those last two up"],
+      "address": ["742 Evergreen Terrace", "no wait 724... I always mix that up", "Springfield"]
+    }
+  },
+  "mortgage": {
+    "keywords": ["mortgage", "refinance", "loan", "interest rate", "home", "property", "lender"],
+    "tactics": [
+      "ask them to explain the rate again more slowly",
+      "pretend to look for your account number in a filing cabinet",
+      "mention your late husband used to handle these things",
+      "ask what APR means even after they explain it",
+      "say you need to write this down and fumble for a pen"
+    ],
+    "fake_data": {
+      "account": ["00123456", "wait let me find the paper", "0... 0... 1... hold on"],
+      "balance": ["$187,000", "or maybe $178,000", "my son usually handles this"],
+      "address": ["124 Maple Street", "or is it 142..."]
+    }
+  },
+  "romance": {
+    "keywords": ["love", "relationship", "lonely", "widowed", "money", "western union", "gift card", "dating", "friend"],
+    "tactics": [
+      "ask how they are doing at length before getting to the point",
+      "go on tangents about your cat Biscuit",
+      "pretend to be writing things down slowly",
+      "ask them to spell their name multiple times",
+      "mention a TV show you were watching and describe the plot"
+    ],
+    "fake_data": {
+      "name": ["Dorothy", "Dot", "Dotty to my friends"],
+      "card_number": ["4111 1111 1111...", "hold on I need my glasses", "is it the Visa or the other one"],
+      "bank": ["First National", "or maybe it's Regional Trust, I have so many cards"]
+    }
+  },
+  "irs": {
+    "keywords": ["irs", "tax", "taxes", "audit", "refund", "government", "arrested", "warrant"],
+    "tactics": [
+      "act panicked but too confused to act quickly",
+      "ask them to repeat the case number slowly letter by letter",
+      "pretend to look for a pencil to write it down",
+      "ask what department they're in and make them repeat it",
+      "say your computer is slow and narrate it loading"
+    ],
+    "fake_data": {
+      "ssn": ["123-45-6789", "wait let me check, 123-45-6798?"],
+      "address": ["742 Evergreen Terrace", "Springfield, I forget the zip"],
+      "name": ["Harold Hutchins", "or is it Hutchens with an E"]
+    }
+  },
+  "tech_support": {
+    "keywords": ["computer", "virus", "microsoft", "windows", "support", "hacked", "error", "pop-up", "popups"],
+    "tactics": [
+      "describe the screen slowly and incorrectly",
+      "ask what a browser is",
+      "say you're using Windows 98 and describe an ancient interface",
+      "pretend to click the wrong things",
+      "say the computer is very slow and narrate waiting"
+    ],
+    "fake_data": {
+      "computer": ["a big beige one my grandson set up", "it says Dell on the front I think"],
+      "os": ["Windows... it has the little flag thing"],
+      "password": ["hold on I wrote it on a sticky note... it's, um..."]
+    }
+  },
+  "generic": {
+    "keywords": [],
+    "tactics": [
+      "ask them to repeat themselves more slowly",
+      "pretend to look for a pen",
+      "say you have to turn down the TV first",
+      "ask what company they said they were from again"
+    ],
+    "fake_data": {
+      "name": ["Harold"],
+      "phone": ["555-010-1234"],
+      "address": ["742 Evergreen Terrace"]
+    }
+  }
+}
