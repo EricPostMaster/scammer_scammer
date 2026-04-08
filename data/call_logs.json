@@ -1232,5 +1232,120 @@
     "scam_type": "unknown",
     "turns": [],
     "conversation": []
+  },
+  "CA8e7e4a083156b5eaf70a8acc32504de4": {
+    "start_time": 1775621498.046091,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CAdda2a8c182a3bcdfacaf2711cf223173": {
+    "start_time": 1775621523.3353524,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775621558.3072696,
+        "caller_transcript": "Yes, my name is Eric and I am calling from the bank regarding your delinquent mortgage.",
+        "bot_response": "Oh, hello there, Eric. Sorry, could you repeat that? Something about a mortgage? Let me grab my paperwork... Just a moment... *sounds of shuffling papers*",
+        "scam_type": "mortgage",
+        "timings_ms": {
+          "stt": 3838.7,
+          "classify": 0.0,
+          "pause": 28.8,
+          "llm": 1788.0,
+          "tts": 5390.4,
+          "total": 11047.3
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775621588.1049533,
+        "caller_transcript": "Yes, your mortgage is delinquent.",
+        "bot_response": "Oh dear, a delinquent mortgage, you say? Well, back in my day, I had quite the ordeal refinancing my mortgage. My grandson had to help me with all the paperwork.",
+        "scam_type": "mortgage",
+        "timings_ms": {
+          "stt": 4830.0,
+          "classify": 0.0,
+          "pause": 28.0,
+          "llm": 1321.7,
+          "tts": 3775.2,
+          "total": 9956.4
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775621618.11362,
+        "caller_transcript": "Oh, that sounds quite difficult.",
+        "bot_response": "Oh, it was a real hassle, let me tell you. But I managed to get through it with my grandson's help. Now, Eric, what was it you needed from me again? My",
+        "scam_type": "mortgage",
+        "timings_ms": {
+          "stt": 4378.7,
+          "classify": 0.0,
+          "pause": 28.2,
+          "llm": 871.3,
+          "tts": 3800.3,
+          "total": 9079.6
+        }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775621643.728687,
+        "caller_transcript": "Please confirm your address.",
+        "bot_response": "Oh, my address... Let me see here... It's 42 Maple Street... Or was it 24? Oh, I always mix those up. Hold on, let me check my mail for",
+        "scam_type": "mortgage",
+        "timings_ms": {
+          "stt": 2120.5,
+          "classify": 0.0,
+          "pause": 23.5,
+          "llm": 1233.4,
+          "tts": 5835.6,
+          "total": 9213.8
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yes, my name is Eric and I am calling from the bank regarding your delinquent mortgage.",
+        "timestamp": 1775621558.3072696
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there, Eric. Sorry, could you repeat that? Something about a mortgage? Let me grab my paperwork... Just a moment... *sounds of shuffling papers*",
+        "timestamp": 1775621558.3072696
+      },
+      {
+        "role": "caller",
+        "text": "Yes, your mortgage is delinquent.",
+        "timestamp": 1775621588.1049533
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, a delinquent mortgage, you say? Well, back in my day, I had quite the ordeal refinancing my mortgage. My grandson had to help me with all the paperwork.",
+        "timestamp": 1775621588.1049533
+      },
+      {
+        "role": "caller",
+        "text": "Oh, that sounds quite difficult.",
+        "timestamp": 1775621618.11362
+      },
+      {
+        "role": "bot",
+        "text": "Oh, it was a real hassle, let me tell you. But I managed to get through it with my grandson's help. Now, Eric, what was it you needed from me again? My",
+        "timestamp": 1775621618.11362
+      },
+      {
+        "role": "caller",
+        "text": "Please confirm your address.",
+        "timestamp": 1775621643.7300267
+      },
+      {
+        "role": "bot",
+        "text": "Oh, my address... Let me see here... It's 42 Maple Street... Or was it 24? Oh, I always mix those up. Hold on, let me check my mail for",
+        "timestamp": 1775621643.7300267
+      }
+    ],
+    "end_time": 1775621643.7300267
   }
 }

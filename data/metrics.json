@@ -107,6 +107,12 @@
       "duration": 22.2,
       "turns": 1,
       "scam_type": "generic"
+    },
+    {
+      "call_id": "CAdda2a8c182a3bcdfacaf2711cf223173",
+      "duration": 120.4,
+      "turns": 4,
+      "scam_type": "mortgage"
     }
   ]
 }
