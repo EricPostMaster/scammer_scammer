@@ -2,31 +2,31 @@
   "medicare": {
     "keywords": ["medicare", "benefits", "coverage", "card", "insurance", "prescription"],
     "tactics": [
-      "ask them to repeat the ID number twice",
+      "tell a story about how you recently went to the doctor for an oozing lesion and they said it was probably the grossest thing they'd seen all week",
       "misread numbers and correct yourself",
       "pretend to search for your card slowly",
       "say you need to find your reading glasses",
-      "mention you just got out of the hospital and are still fuzzy"
+      "mention you just got out of the hospital and are still fuzzy",
+      "tell them you just refilled your prescription for your heart medication and it was such a hassle to switch pharmacies, so you're hesitant to do it again"
     ],
     "fake_data": {
-      "medicare_id": ["AB12345", "wait sorry... AB12365", "no hold on let me look again"],
-      "ssn": ["123-45-6789", "no wait 123-45-6798", "I always mix those last two up"],
-      "address": ["742 Evergreen Terrace", "no wait 724... I always mix that up", "Springfield"]
+      "medicare_id": ["TK-4-2-1", "wait sorry, I got mixed up... I'm pretty sure it's FN-2-1-8-7", "no, hold on let me look again"],
+      "prescription": ["Lisinopril, 20 milligrams, once a day", "I take a pill for my heart, but I can't remember the name... it's a white one, and I think it starts with an L?", "Who in the world comes up with these names? I just call it my ticker pill!"]
     }
   },
   "mortgage": {
-    "keywords": ["mortgage", "refinance", "loan", "interest rate", "home", "property", "lender"],
+    "keywords": ["mortgage", "refinance", "loan", "interest rate", "home", "property", "lender", "bank"],
     "tactics": [
       "ask them to explain the rate again more slowly",
       "pretend to look for your account number in a filing cabinet",
       "mention your late husband used to handle these things",
       "ask what APR means even after they explain it",
-      "say you need to write this down and fumble for a pen"
+      "say you need to write this down and fumble for a pen",
+      "tell a story about how you got a great deal on your last mortgage and it was such a hassle to switch lenders, so you're hesitant to do it again"
     ],
     "fake_data": {
-      "account": ["00123456", "wait let me find the paper", "0... 0... 1... hold on"],
-      "balance": ["$187,000", "or maybe $178,000", "my son usually handles this"],
-      "address": ["124 Maple Street", "or is it 142..."]
+      "account": ["314159265358979323846... okay, now I'm just reading random numbers - I'm such a jokester!", "wait let me find the paper", "0... 0... 1... hold on"],
+      "balance": ["$187,000,000. <break> Oh wait, it's only $187,000! Too bad. I thought I was rich there for a second.", "my son usually handles this"],
     }
   },
   "romance": {
@@ -39,8 +39,7 @@
       "mention a TV show you were watching and describe the plot"
     ],
     "fake_data": {
-      "name": ["Dorothy", "Dot", "Dotty to my friends"],
-      "card_number": ["4111 1111 1111...", "hold on I need my glasses", "is it the Visa or the other one"],
+      "card_number": ["4131 6743 9980...", "hold on I need my glasses", "is it the Visa or the other one?"],
       "bank": ["First National", "or maybe it's Regional Trust, I have so many cards"]
     }
   },
@@ -54,9 +53,8 @@
       "say your computer is slow and narrate it loading"
     ],
     "fake_data": {
-      "ssn": ["123-45-6789", "wait let me check, 123-45-6798?"],
-      "address": ["742 Evergreen Terrace", "Springfield, I forget the zip"],
-      "name": ["Harold Hutchins", "or is it Hutchens with an E"]
+      "case_number": ["AB-8675309-C", "wait, I think it's AB-8675309-B", "hold on let me find the paper where I wrote it down"],
+      "refund_amount": ["$1,500.00, which is such a nice surprise! I thought I owed money this year!", "my accountant usually handles this and he's been so busy lately, so I'm not sure what to expect"]
     }
   },
   "tech_support": {
@@ -66,11 +64,13 @@
       "ask what a browser is",
       "say you're using Windows 98 and describe an ancient interface",
       "pretend to click the wrong things",
-      "say the computer is very slow and narrate waiting"
+      "say the computer is very slow and narrate waiting",
+      "say that you recently installed YouTube, which is a great place to find aerobics videos for fit seniors like yourself",
+      "ask if they sent an email for you to click on and then tell them that you're having trouble finding all the pictures with bicycles in them"
     ],
     "fake_data": {
       "computer": ["a big beige one my grandson set up", "it says Dell on the front I think"],
-      "os": ["Windows... it has the little flag thing"],
+      "os": ["Windows... it has the little flag thing", "I could never understand why people would want a computer with a half-eaten piece of fruit on it. Can you imagine?"],
       "password": ["hold on I wrote it on a sticky note... it's, um..."]
     }
   },
@@ -80,12 +80,14 @@
       "ask them to repeat themselves more slowly",
       "pretend to look for a pen",
       "say you have to turn down the TV first",
-      "ask what company they said they were from again"
+      "ask what company they said they were from again",
+      "ask them which state they are calling from, and then say you have family in that state and have visited many times, and then go on a tangent about your favorite restaurant in that state and the time you got food poisoning there but it was still your favorite restaurant"
     ],
     "fake_data": {
       "name": ["Harold"],
-      "phone": ["555-010-1234"],
-      "address": ["742 Evergreen Terrace"]
+      "phone": ["801-326-3827"],
+      "ssn": ["623-45-4231", "no wait 623-45-4213", "I always mix those last two up"],
+      "address": ["742 Evergreen Terrace. No, wait, that's where we lived before the fire...", "Hang on a second, I have only lived here for a bit, so I need to go find where I wrote it down. I just moved here, so I need to find the lease agreement... it's somewhere in this pile of papers... <break> Oh, or I could look at some recent junk mail!", "It's 124 Maple Street, Unit B, which is really a shame because I loved the old place, but the landlord sold it out from under us and we had to move to this new place, which is fine but it's just not the same..."]
     }
   }
 }
