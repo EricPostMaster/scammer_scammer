@@ -13,7 +13,7 @@ Path("audio").mkdir(exist_ok=True)
 
 # ElevenLabs voice IDs for elderly-sounding female voices
 # Find more at https://elevenlabs.io/app/voice-library
-ELEVENLABS_VOICE_ID = "JBFqnCBsd6RMkjVDRZzb"  # "Bella" - warm, older-sounding female
+ELEVENLABS_VOICE_ID = "JBFqnCBsd6RMkjVDRZzb" #"8TMmdpPgqHKvDOGYP2lN"
 
 
 def synthesize(text: str, call_id: str) -> str:
@@ -26,17 +26,17 @@ def synthesize(text: str, call_id: str) -> str:
         try:
             from elevenlabs.client import ElevenLabs
             client = ElevenLabs(api_key=elevenlabs_api_key)
-            # Use streaming to start writing chunks immediately
-            audio_stream = client.text_to_speech.convert_as_stream(
+            # Use convert() to synthesize audio
+            audio = client.text_to_speech.convert(
                 text=text,
                 voice_id=ELEVENLABS_VOICE_ID,
                 model_id="eleven_flash_v2",
                 output_format="mp3_44100_128"
             )
             with open(path, "wb") as f:
-                for chunk in audio_stream:
+                for chunk in audio:
                     f.write(chunk)
-            print(f"[TTS] Used ElevenLabs for synthesis (streaming)")
+            print(f"[TTS] Used ElevenLabs for synthesis")
             return filename
         except Exception as e:
             print(f"[TTS] ElevenLabs failed: {e}, falling back to OpenAI")

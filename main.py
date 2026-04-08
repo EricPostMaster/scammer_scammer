@@ -34,7 +34,7 @@ def incoming_call(CallSid: str = Form(...)):
         logger.init_call(CallSid)
 
         # Generate greeting with the bot's voice instead of Twilio's default
-        greeting_text = "Oh hello? One second dear, let me turn down the television..."
+        greeting_text = "Oh hello? One second dear, let me turn down the television... <break> May I ask who's calling?"
         greeting_audio = agent.get_greeting(greeting_text, CallSid)
 
         resp = VoiceResponse()
@@ -42,7 +42,7 @@ def incoming_call(CallSid: str = Form(...)):
             resp.play(f"{BASE_URL}/audio/{greeting_audio}")
         else:
             # Fallback to Twilio voice if TTS fails
-            resp.say(greeting_text, voice="Polly.Joanna")
+            resp.say(greeting_text, voice="Ruth-Generative")  # voice="Polly.Joanna")
         
         resp.record(
             action=f"{BASE_URL}/process_audio",
@@ -93,7 +93,7 @@ def process_audio(
             resp.play(f"{BASE_URL}/audio/{audio_file}")
         else:
             # Fallback if TTS failed
-            resp.say("Hold on dear, I'm still looking for that paper.", voice="Polly.Joanna")
+            resp.say("Hold on dear, I'm still looking for that paper.", voice="Ruth-Generative")  #"Polly.Joanna")
 
         # Loop — record the next segment
         resp.record(

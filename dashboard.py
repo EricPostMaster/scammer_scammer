@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 from pathlib import Path
+import altair as alt
 
 st.set_page_config(page_title="Scam Bot Dashboard", layout="wide")
 st.title("Scam Call Delay Bot — Dashboard")
@@ -50,11 +51,31 @@ chart_col1, chart_col2 = st.columns(2)
 
 with chart_col1:
     st.subheader("Call Duration (seconds)")
-    st.bar_chart(df.set_index("call_id")["duration"])
+    duration_bins = list(range(0, int(df["duration"].max() + 20), 20))
+    duration_binned = pd.cut(df["duration"], bins=duration_bins)
+    duration_hist = duration_binned.value_counts().sort_index()
+    duration_hist = duration_hist.reset_index()
+    duration_hist.columns = ["Duration Range (seconds)", "Count"]
+    duration_hist["Duration Range (seconds)"] = duration_hist["Duration Range (seconds)"].astype(str)
+    chart1 = alt.Chart(duration_hist).mark_bar().encode(
+        x=alt.X("Duration Range (seconds):N", axis=alt.Axis(labelAngle=0), scale=alt.Scale(paddingInner=0)),
+        y="Count:Q"
+    ).properties(width=500, height=400)
+    st.altair_chart(chart1, use_container_width=True)
 
 with chart_col2:
     st.subheader("Turns per Call")
-    st.bar_chart(df.set_index("call_id")["turns"])
+    turns_bins = list(range(0, int(df["turns"].max()) + 2))
+    turns_binned = pd.cut(df["turns"], bins=turns_bins)
+    turns_hist = turns_binned.value_counts().sort_index()
+    turns_hist = turns_hist.reset_index()
+    turns_hist.columns = ["Turn Count", "Count"]
+    turns_hist["Turn Count"] = turns_hist["Turn Count"].astype(str)
+    chart2 = alt.Chart(turns_hist).mark_bar().encode(
+        x=alt.X("Turn Count:N", axis=alt.Axis(labelAngle=0), scale=alt.Scale(paddingInner=0)),
+        y="Count:Q"
+    ).properties(width=500, height=400)
+    st.altair_chart(chart2, use_container_width=True)
 
 st.subheader("Scam Types Encountered")
 scam_counts = df["scam_type"].value_counts().reset_index()

@@ -19,7 +19,7 @@ with open(Path(__file__).parent / "data" / "scam_knowledge.json") as f:
     KNOWLEDGE = json.load(f)
 
 SYSTEM_PROMPT = """\
-You are an elderly person named Harold (or Dorothy — pick one and stay with it) on the phone.
+You are an elderly person named Harold on the phone.
 
 Personality traits:
 - Hard of hearing: frequently ask callers to repeat themselves or speak up
@@ -120,9 +120,9 @@ def handle_turn(audio_url: str, call_id: str) -> str:
     llm_start = time.time()
     try:
         completion = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-3.5-turbo",  #"gpt-4o-mini",
             messages=[{"role": "system", "content": system}] + history,
-            max_tokens=60,
+            max_tokens=40,
             temperature=0.9,
         )
         response_text = completion.choices[0].message.content.strip()

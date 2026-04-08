@@ -65,6 +65,48 @@
       "duration": 135.0,
       "turns": 5,
       "scam_type": "generic"
+    },
+    {
+      "call_id": "CA9cb207015d9b4a184ef0d5204130b9ca",
+      "duration": 50.9,
+      "turns": 3,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA0108dec0dbb69e2a423dfab57d0d8e7b",
+      "duration": 48.9,
+      "turns": 3,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA23f9881f0540927e442f8b687b45f1d0",
+      "duration": 93.6,
+      "turns": 4,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA36a0f7f82e8a9a19820c10cbe40ca28b",
+      "duration": 127.3,
+      "turns": 5,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CAe7e1cec0f750b5bd621973d2394faae0",
+      "duration": 46.5,
+      "turns": 2,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA5b51ad889d4c2ec01dbe678a55d3101f",
+      "duration": 27.8,
+      "turns": 1,
+      "scam_type": "generic"
+    },
+    {
+      "call_id": "CAce85c70e027c45900bf557d5460ed368",
+      "duration": 22.2,
+      "turns": 1,
+      "scam_type": "generic"
     }
   ]
 }
