@@ -10,6 +10,7 @@ from pathlib import Path
 
 import agent
 import logger
+import report_spam
 
 load_dotenv()
 
@@ -65,7 +66,7 @@ def incoming_call(CallSid: str = Form(...)):
 @app.post("/process_audio")
 def process_audio(
     CallSid: str = Form(...),
-    RecordingUrl: str = Form(...),
+    RecordingUrl: str = Form(default=None),
     CallStatus: str = Form(default="in-progress"),
 ):
     """Twilio hits this endpoint after each recording segment."""
@@ -74,8 +75,13 @@ def process_audio(
         print(f"[PROCESS_AUDIO] CallSid: {CallSid[:8]}..., Status: {CallStatus}")
         
         if CallStatus in ("completed", "canceled", "failed"):
-            # Call ended — return empty TwiML
+            # Call ended — submit spam report and return empty TwiML
             print(f"[PROCESS_AUDIO] Call ended with status: {CallStatus}")
+            report_spam.submit_phone_number()
+            return twiml_response(str(VoiceResponse()))
+
+        if not RecordingUrl:
+            print(f"[PROCESS_AUDIO] No RecordingUrl, returning empty response")
             return twiml_response(str(VoiceResponse()))
 
         audio_url = RecordingUrl + ".mp3"
@@ -114,6 +120,16 @@ def process_audio(
         resp = VoiceResponse()
         resp.say("Sorry, there was a technical error. Please try again later.")
         return twiml_response(str(resp))
+
+
+@app.post("/twilio/status")
+def twilio_status(CallSid: str = Form(...), CallStatus: str = Form(...)):
+    """Twilio status callback — fires when a call fully ends."""
+    print(f"[TWILIO_STATUS] CallSid: {CallSid[:8]}..., Status: {CallStatus}")
+    if CallStatus in ("completed", "canceled", "failed", "busy", "no-answer"):
+        print(f"[TWILIO_STATUS] Call ended, submitting spam report")
+        report_spam.submit_phone_number()
+    return {"status": "ok"}
 
 
 @app.get("/health")

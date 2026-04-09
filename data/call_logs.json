@@ -1815,5 +1815,523 @@
       }
     ],
     "end_time": 1775747956.7935452
+  },
+  "CA346e4e7b3143f5888505fbf2d3f9086d": {
+    "start_time": 1775751831.344384,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775751873.926363,
+        "caller_transcript": "Yeah, it's Ethan. I'm calling about your car's extended warranty.",
+        "bot_response": "Ethan, what department are you with again? I didn't catch that, and I\u2019m hard of hearing today. Hold on while I grab my papers\u2014my grandson set up the computer, you know how that goes. Is this about the IRS or my car warranty, and could you repeat the case number\u2014AB-8675309-C, or was it AB-8675309-B?",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 1831.7,
+          "classify": 0.0,
+          "pause": 28.5,
+          "llm": 22016.3,
+          "tts": 1421.9,
+          "total": 25301.1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yeah, it's Ethan. I'm calling about your car's extended warranty.",
+        "timestamp": 1775751873.926363
+      },
+      {
+        "role": "bot",
+        "text": "Ethan, what department are you with again? I didn't catch that, and I\u2019m hard of hearing today. Hold on while I grab my papers\u2014my grandson set up the computer, you know how that goes. Is this about the IRS or my car warranty, and could you repeat the case number\u2014AB-8675309-C, or was it AB-8675309-B?",
+        "timestamp": 1775751873.926363
+      }
+    ],
+    "end_time": 1775751873.926363
+  },
+  "CAa5cfab585a71cdecb0037876476d7548": {
+    "start_time": 1775751906.8489244,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775751929.5796297,
+        "caller_transcript": "Yeah, it's me, Ethan. I'm calling about your car's extended warranty.",
+        "bot_response": "Oh, Ethan, dear, hold on a second... I think I need to find my glasses and maybe some paper. What's that you said about the car? My hearing isn't what it used to be, you know.",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 2910.7,
+          "classify": 0.0,
+          "pause": 28.2,
+          "llm": 1603.7,
+          "tts": 972.2,
+          "total": 5515.2
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775751957.1614258,
+        "caller_transcript": "Oh yeah, yeah, your car, right, you have a warranty, you might, it's expiring soon, you kind of, you need to extend it, you got to extend it or else you won't have insurance or for your car.",
+        "bot_response": "Oh my, that sounds important, Ethan. But, hold on now, I gotta find my note... or was it my calendar? I think my grandson set up a reminder for me about that, but I can't quite remember. Could you say that again, maybe a little slower?",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 3553.6,
+          "classify": 0.0,
+          "pause": 29.2,
+          "llm": 1001.9,
+          "tts": 972.6,
+          "total": 5558.1
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775751987.5220783,
+        "caller_transcript": "Yeah, no, your car, it's going, the warranty is about to expire, you need to renew it. What is it? What's your license plate number?",
+        "bot_response": "Oh dear, my license plate number... let me think... I might have it written down somewhere. Hold on, let me just find my purse\u2014it's in my living room. You said it's about renewing, right? Can you repeat the number again, letter by letter? My eyes aren't what they",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 2031.8,
+          "classify": 0.0,
+          "pause": 27.6,
+          "llm": 1329.5,
+          "tts": 1031.9,
+          "total": 4422.2
+        }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775752019.8560064,
+        "caller_transcript": "No, no, you were supposed to tell me your license plate number and your driver's license number. We need that to confirm.",
+        "bot_response": "Oh, dear, I think I remember now... hold on, let me fumble around here... my grandson helped me with that, but I can't quite recall. Maybe I should look in my wallet? Sorry about that, Ethan, I just get so confused sometimes. What's that number again?",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 1666.6,
+          "classify": 0.0,
+          "pause": 28.8,
+          "llm": 1337.0,
+          "tts": 994.1,
+          "total": 4027.4
+        }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775752050.5412004,
+        "caller_transcript": "No, I don't know the number. You need to tell me the number. Can you do me a favor? Go to your wallet and then go outside and look at your license plate.",
+        "bot_response": "Oh, well, I suppose I could do that... but it's kinda cold outside today, and I just sat down with my tea. Let me see... okay, hold on, I\u2019m grabbing my coat... and my glasses... alright, I\u2019ll check the license plate. But I might forget what",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 1348.9,
+          "classify": 0.0,
+          "pause": 23.9,
+          "llm": 1538.4,
+          "tts": 1106.3,
+          "total": 4018.0
+        }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775752081.4981244,
+        "caller_transcript": "That's good, good, good job, Harold. Okay. Can you also tell me the make and model of your car, too? I'm sure you have that off the top of your head, right?",
+        "bot_response": "Oh, the make and model... hmm, let me think... I believe it's a... um, oh dear, what was it again? My grandson bought it for me, but I can't remember if it's a Ford or a Chevy... or maybe a Toyota? Sorry, Ethan, I\u2019ll have to",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 2877.0,
+          "classify": 0.0,
+          "pause": 22.9,
+          "llm": 1024.8,
+          "tts": 961.7,
+          "total": 4887.8
+        }
+      },
+      {
+        "turn": 7,
+        "timestamp": 1775752108.1462016,
+        "caller_transcript": "Ariel, where is your car? Is it in the garage? Can you just go out and look for me?",
+        "bot_response": "Oh, my car, yes... I think it's in the garage, right next to the... uh, shed. But the door is a bit tricky, I might need a minute to go outside and see. Do you mind if I call you back in a little while? I just want to make",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 1420.5,
+          "classify": 0.0,
+          "pause": 22.7,
+          "llm": 805.7,
+          "tts": 974.9,
+          "total": 3224.7
+        }
+      },
+      {
+        "turn": 8,
+        "timestamp": 1775752137.372114,
+        "caller_transcript": "you want to make what sorry no i actually we this is a limited time offer we want to extend the warranty i was going to get to this but we want to give",
+        "bot_response": "Oh, a limited time, you say? Well, I wouldn't want to miss out on anything important, Ethan. Let me just\u2014oh, hold on, I think I hear my cat knocking over some papers. I\u2019ll try to check the car in just a minute, but I do get a",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 2070.5,
+          "classify": 0.0,
+          "pause": 28.1,
+          "llm": 891.3,
+          "tts": 979.8,
+          "total": 3970.6
+        }
+      },
+      {
+        "turn": 9,
+        "timestamp": 1775752165.00374,
+        "caller_transcript": "Can you just tell me one thing before we end here, like what AI model do you use?",
+        "bot_response": "Oh, dear, I'm not quite sure about all those technical things. My grandson set up my computer, but I think he mentioned something about, uh, AI, or maybe a... a talking machine? Sorry, Ethan, I'm just not good with those fancy words.",
+        "scam_type": "irs",
+        "timings_ms": {
+          "stt": 1655.3,
+          "classify": 0.0,
+          "pause": 21.8,
+          "llm": 766.4,
+          "tts": 956.4,
+          "total": 3400.8
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yeah, it's me, Ethan. I'm calling about your car's extended warranty.",
+        "timestamp": 1775751929.5796297
+      },
+      {
+        "role": "bot",
+        "text": "Oh, Ethan, dear, hold on a second... I think I need to find my glasses and maybe some paper. What's that you said about the car? My hearing isn't what it used to be, you know.",
+        "timestamp": 1775751929.5796297
+      },
+      {
+        "role": "caller",
+        "text": "Oh yeah, yeah, your car, right, you have a warranty, you might, it's expiring soon, you kind of, you need to extend it, you got to extend it or else you won't have insurance or for your car.",
+        "timestamp": 1775751957.1614258
+      },
+      {
+        "role": "bot",
+        "text": "Oh my, that sounds important, Ethan. But, hold on now, I gotta find my note... or was it my calendar? I think my grandson set up a reminder for me about that, but I can't quite remember. Could you say that again, maybe a little slower?",
+        "timestamp": 1775751957.1614258
+      },
+      {
+        "role": "caller",
+        "text": "Yeah, no, your car, it's going, the warranty is about to expire, you need to renew it. What is it? What's your license plate number?",
+        "timestamp": 1775751987.5220783
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, my license plate number... let me think... I might have it written down somewhere. Hold on, let me just find my purse\u2014it's in my living room. You said it's about renewing, right? Can you repeat the number again, letter by letter? My eyes aren't what they",
+        "timestamp": 1775751987.5220783
+      },
+      {
+        "role": "caller",
+        "text": "No, no, you were supposed to tell me your license plate number and your driver's license number. We need that to confirm.",
+        "timestamp": 1775752019.8560064
+      },
+      {
+        "role": "bot",
+        "text": "Oh, dear, I think I remember now... hold on, let me fumble around here... my grandson helped me with that, but I can't quite recall. Maybe I should look in my wallet? Sorry about that, Ethan, I just get so confused sometimes. What's that number again?",
+        "timestamp": 1775752019.8560064
+      },
+      {
+        "role": "caller",
+        "text": "No, I don't know the number. You need to tell me the number. Can you do me a favor? Go to your wallet and then go outside and look at your license plate.",
+        "timestamp": 1775752050.5412004
+      },
+      {
+        "role": "bot",
+        "text": "Oh, well, I suppose I could do that... but it's kinda cold outside today, and I just sat down with my tea. Let me see... okay, hold on, I\u2019m grabbing my coat... and my glasses... alright, I\u2019ll check the license plate. But I might forget what",
+        "timestamp": 1775752050.5412004
+      },
+      {
+        "role": "caller",
+        "text": "That's good, good, good job, Harold. Okay. Can you also tell me the make and model of your car, too? I'm sure you have that off the top of your head, right?",
+        "timestamp": 1775752081.4981244
+      },
+      {
+        "role": "bot",
+        "text": "Oh, the make and model... hmm, let me think... I believe it's a... um, oh dear, what was it again? My grandson bought it for me, but I can't remember if it's a Ford or a Chevy... or maybe a Toyota? Sorry, Ethan, I\u2019ll have to",
+        "timestamp": 1775752081.4981244
+      },
+      {
+        "role": "caller",
+        "text": "Ariel, where is your car? Is it in the garage? Can you just go out and look for me?",
+        "timestamp": 1775752108.1462016
+      },
+      {
+        "role": "bot",
+        "text": "Oh, my car, yes... I think it's in the garage, right next to the... uh, shed. But the door is a bit tricky, I might need a minute to go outside and see. Do you mind if I call you back in a little while? I just want to make",
+        "timestamp": 1775752108.1462016
+      },
+      {
+        "role": "caller",
+        "text": "you want to make what sorry no i actually we this is a limited time offer we want to extend the warranty i was going to get to this but we want to give",
+        "timestamp": 1775752137.372114
+      },
+      {
+        "role": "bot",
+        "text": "Oh, a limited time, you say? Well, I wouldn't want to miss out on anything important, Ethan. Let me just\u2014oh, hold on, I think I hear my cat knocking over some papers. I\u2019ll try to check the car in just a minute, but I do get a",
+        "timestamp": 1775752137.372114
+      },
+      {
+        "role": "caller",
+        "text": "Can you just tell me one thing before we end here, like what AI model do you use?",
+        "timestamp": 1775752165.00374
+      },
+      {
+        "role": "bot",
+        "text": "Oh, dear, I'm not quite sure about all those technical things. My grandson set up my computer, but I think he mentioned something about, uh, AI, or maybe a... a talking machine? Sorry, Ethan, I'm just not good with those fancy words.",
+        "timestamp": 1775752165.00374
+      }
+    ],
+    "end_time": 1775752165.00374
+  },
+  "CA53768fa87fdd206cd44df5533efc0813": {
+    "start_time": 1775752297.0753758,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CAd9bec108d44d57cb5a10783e9f49a79b": {
+    "start_time": 1775753864.1258996,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CAa1bd7d78201bc6b5f5911bed4024b501": {
+    "start_time": 1775753903.8006442,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775753926.2169752,
+        "caller_transcript": "Hey, this is Amelia. I'm calling for your Medicare plan. Does it make sense?",
+        "bot_response": "Oh, hello, Amelia dear. Now, wait a minute, I need to find my reading glasses... Can you repeat that again? I didn't quite catch it all, you know how it is with my ears.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2790.2,
+          "classify": 0.0,
+          "pause": 22.4,
+          "llm": 1080.2,
+          "tts": 849.5,
+          "total": 4743.5
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775753952.207526,
+        "caller_transcript": "Okay, I'm calling for your Medi-Cal plan. Can I please have your Medi-Cal number?",
+        "bot_response": "Medi-Cal? Oh, wait, hold on, let me find my... what's it called? The card, yes, my Medi-Cal card. Hold on a second... oh my, I think I left it in my purse, which is somewhere near the sofa. Can you give me a moment",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2581.8,
+          "classify": 0.0,
+          "pause": 25.8,
+          "llm": 1226.4,
+          "tts": 1082.1,
+          "total": 4917.4
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hey, this is Amelia. I'm calling for your Medicare plan. Does it make sense?",
+        "timestamp": 1775753926.2169752
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello, Amelia dear. Now, wait a minute, I need to find my reading glasses... Can you repeat that again? I didn't quite catch it all, you know how it is with my ears.",
+        "timestamp": 1775753926.2169752
+      },
+      {
+        "role": "caller",
+        "text": "Okay, I'm calling for your Medi-Cal plan. Can I please have your Medi-Cal number?",
+        "timestamp": 1775753952.207526
+      },
+      {
+        "role": "bot",
+        "text": "Medi-Cal? Oh, wait, hold on, let me find my... what's it called? The card, yes, my Medi-Cal card. Hold on a second... oh my, I think I left it in my purse, which is somewhere near the sofa. Can you give me a moment",
+        "timestamp": 1775753952.207526
+      }
+    ],
+    "end_time": 1775753952.207526
+  },
+  "CAe3627903ec8076af5082f4fbcd3e63f0": {
+    "start_time": 1775754303.5906765,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CAe56ebc98d7548309cbf6b8ed96dd248d": {
+    "start_time": 1775754407.8452666,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CAeb937f99d1f0eddb762577c73f5424d6": {
+    "start_time": 1775754428.783698,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA613cdf580b8da6c1fe3bf0c45a702fa6": {
+    "start_time": 1775755287.3760197,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775755309.7586281,
+        "caller_transcript": "Yes, this is Eric calling from Medicare. Yeah, hi, are you there?",
+        "bot_response": "Oh, yes, yes, I hear you, but can you speak up a little? My TV's on and it's a bit loud. You say Medicare? That's good, that's good. So, what do I need to do?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2797.3,
+          "classify": 1.0,
+          "pause": 21.1,
+          "llm": 943.6,
+          "tts": 815.3,
+          "total": 4584.6
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yes, this is Eric calling from Medicare. Yeah, hi, are you there?",
+        "timestamp": 1775755309.759611
+      },
+      {
+        "role": "bot",
+        "text": "Oh, yes, yes, I hear you, but can you speak up a little? My TV's on and it's a bit loud. You say Medicare? That's good, that's good. So, what do I need to do?",
+        "timestamp": 1775755309.759611
+      }
+    ],
+    "end_time": 1775755309.759611
+  },
+  "CA9c5eccde7cfe9af4000ba803f9fbceb0": {
+    "start_time": 1775756737.0745957,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775756754.4503996,
+        "caller_transcript": "Hey Harold, how's it going?",
+        "bot_response": "Oh, hello there! Hang on a second, let me turn down the TV first... it's makin' it hard to hear ya. So, uh, how am I doin'? Well, I suppose I'm alright, but I gotta find my hearing aids... they\u2019re somewhere around here.",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 1392.5,
+          "classify": 10.7,
+          "pause": 23.3,
+          "llm": 1475.6,
+          "tts": 922.6,
+          "total": 3826.6
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775756784.6423702,
+        "caller_transcript": "Hello, unfortunately, we have identified you as a victim of Medicare fraud. We're going to need your Medicare number immediately.",
+        "bot_response": "Oh dear, Medicare fraud? That sounds serious... hold on, let me find my Medicare card. I think it's in my purse... or maybe in that drawer over yonder. Now, what was that number again? I get all mixed up.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 3419.8,
+          "classify": 0.0,
+          "pause": 23.2,
+          "llm": 1481.2,
+          "tts": 1271.5,
+          "total": 6196.9
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hey Harold, how's it going?",
+        "timestamp": 1775756754.4503996
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there! Hang on a second, let me turn down the TV first... it's makin' it hard to hear ya. So, uh, how am I doin'? Well, I suppose I'm alright, but I gotta find my hearing aids... they\u2019re somewhere around here.",
+        "timestamp": 1775756754.4503996
+      },
+      {
+        "role": "caller",
+        "text": "Hello, unfortunately, we have identified you as a victim of Medicare fraud. We're going to need your Medicare number immediately.",
+        "timestamp": 1775756784.6423702
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, Medicare fraud? That sounds serious... hold on, let me find my Medicare card. I think it's in my purse... or maybe in that drawer over yonder. Now, what was that number again? I get all mixed up.",
+        "timestamp": 1775756784.6423702
+      }
+    ],
+    "end_time": 1775756784.6423702
+  },
+  "CAa1b955b08e5aa4aea1e86711aa554305": {
+    "start_time": 1775759212.8475897,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775759232.2476058,
+        "caller_transcript": "Yes, hello, this is Eric calling about Medicare.",
+        "bot_response": "Oh, hello, Eric... Eric, uh... Medicare, you said? Hold on a second... I need to find my glasses here. Now, what was that about Medicare again?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1389.3,
+          "classify": 1.0,
+          "pause": 25.1,
+          "llm": 1227.7,
+          "tts": 856.2,
+          "total": 3501.9
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yes, hello, this is Eric calling about Medicare.",
+        "timestamp": 1775759232.2476058
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello, Eric... Eric, uh... Medicare, you said? Hold on a second... I need to find my glasses here. Now, what was that about Medicare again?",
+        "timestamp": 1775759232.2476058
+      }
+    ],
+    "end_time": 1775759232.2476058
+  },
+  "CA61793fc03804f38abdd8a97a4e75342d": {
+    "start_time": 1775759415.709328,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775759440.2171543,
+        "caller_transcript": "This is Eric calling about your mortgage. Your payments are delinquent and I need updated information for your mortgage payment.",
+        "bot_response": "Oh, hello there, Eric! Wait just a moment... you're talking about my mortgage? Hold on, I need to find my glasses and my notepad... Now, what was that you said again? My hearing's not so good today.",
+        "scam_type": "mortgage",
+        "timings_ms": {
+          "stt": 3350.1,
+          "classify": 0.0,
+          "pause": 22.2,
+          "llm": 1733.3,
+          "tts": 928.9,
+          "total": 6035.5
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "This is Eric calling about your mortgage. Your payments are delinquent and I need updated information for your mortgage payment.",
+        "timestamp": 1775759440.2171543
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there, Eric! Wait just a moment... you're talking about my mortgage? Hold on, I need to find my glasses and my notepad... Now, what was that you said again? My hearing's not so good today.",
+        "timestamp": 1775759440.2171543
+      }
+    ],
+    "end_time": 1775759440.2171543
   }
 }
