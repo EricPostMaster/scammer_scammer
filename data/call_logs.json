@@ -1347,5 +1347,213 @@
       }
     ],
     "end_time": 1775621643.7300267
+  },
+  "CA2052cf667ed28a452db82c56efe3a20b": {
+    "start_time": 1775741327.073694,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775741357.9158337,
+        "caller_transcript": "Okay. Hi. Good morning.",
+        "bot_response": "Oh, good morning! Sorry, let me just turn down the TV a bit... There we go. Now, what was it you were saying, dear?",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 9925.4,
+          "classify": 0.0,
+          "pause": 22.8,
+          "llm": 1614.4,
+          "tts": 1138.6,
+          "total": 12702.2
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775741379.6537857,
+        "caller_transcript": "Yes, hi, I'm calling from Medicare about your delinquent account.",
+        "bot_response": "Oh, Medicare, you say? Hold on, let me find my glasses so I can hear you better... Now, what was that about my account, again?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2379.4,
+          "classify": 1.0,
+          "pause": 27.2,
+          "llm": 1775.1,
+          "tts": 965.2,
+          "total": 5148.2
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Okay. Hi. Good morning.",
+        "timestamp": 1775741357.9158337
+      },
+      {
+        "role": "bot",
+        "text": "Oh, good morning! Sorry, let me just turn down the TV a bit... There we go. Now, what was it you were saying, dear?",
+        "timestamp": 1775741357.9158337
+      },
+      {
+        "role": "caller",
+        "text": "Yes, hi, I'm calling from Medicare about your delinquent account.",
+        "timestamp": 1775741379.6537857
+      },
+      {
+        "role": "bot",
+        "text": "Oh, Medicare, you say? Hold on, let me find my glasses so I can hear you better... Now, what was that about my account, again?",
+        "timestamp": 1775741379.6537857
+      }
+    ],
+    "end_time": 1775741379.6537857
+  },
+  "CA6ecd5745eddf5c63c9624deec9664a44": {
+    "start_time": 1775741632.8003283,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775741663.7103121,
+        "caller_transcript": "Yeah. Hi, this is Eric. I'm calling from Medicare about your delinquent account.",
+        "bot_response": "Oh, hello there, Eric. My name is Harold. I just got out of the hospital, so I'm still a bit fuzzy. Now, what was that about my account?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2841.2,
+          "classify": 0.0,
+          "pause": 25.1,
+          "llm": 1925.2,
+          "tts": 1038.1,
+          "total": 5829.9
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775741684.9751577,
+        "caller_transcript": "Your medicare account is delinquent.",
+        "bot_response": "Oh dear, my Medicare account? Let me grab my paperwork. Hold on, let me check my purse... Oh, did I tell you about my cat, Mittens? She's been quite the",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1607.1,
+          "classify": 0.0,
+          "pause": 23.2,
+          "llm": 1204.1,
+          "tts": 1337.4,
+          "total": 4172.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yeah. Hi, this is Eric. I'm calling from Medicare about your delinquent account.",
+        "timestamp": 1775741663.7103121
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there, Eric. My name is Harold. I just got out of the hospital, so I'm still a bit fuzzy. Now, what was that about my account?",
+        "timestamp": 1775741663.7103121
+      },
+      {
+        "role": "caller",
+        "text": "Your medicare account is delinquent.",
+        "timestamp": 1775741684.9751577
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, my Medicare account? Let me grab my paperwork. Hold on, let me check my purse... Oh, did I tell you about my cat, Mittens? She's been quite the",
+        "timestamp": 1775741684.9751577
+      }
+    ],
+    "end_time": 1775741684.9751577
+  },
+  "CA78582fcd4da76a2e9dddd72613ff138d": {
+    "start_time": 1775741956.490556,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA9e70c5932dfe27cdc7edb18e7ee1914e": {
+    "start_time": 1775741963.8177466,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775741988.6322956,
+        "caller_transcript": "Hi, this is Eric calling from Medicare about your delinquent account.",
+        "bot_response": "Oh, hello there! Now, what was that name again? Eric, you said? Sorry, I'm a bit fuzzy still since I just got out of the hospital. Delinquent account, you say? Oh goodness, my head's spinning a bit. Can you repeat that part?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 4094.7,
+          "classify": 0.0,
+          "pause": 27.6,
+          "llm": 1721.4,
+          "tts": 1168.5,
+          "total": 7012.6
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775742017.8155844,
+        "caller_transcript": "Eric calling from Medicare about your delinquent account.",
+        "bot_response": "Oh, yes, yes, Eric! Thank you for repeating that. Now, let me see... I think I need to find my Medicare card. Hold on a moment, let me look in my purse... it's somewhere in here. Uh, is it... oh dear, I can't quite remember if",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1622.0,
+          "classify": 0.0,
+          "pause": 20.9,
+          "llm": 2550.7,
+          "tts": 1075.3,
+          "total": 5269.4
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775742043.4936433,
+        "caller_transcript": "You",
+        "bot_response": "What? Oh, you were saying something, Eric? I'm so sorry, it's a little hard for me to catch everything. I just refilled my prescription for heart medication, you know, the one I call my ticker pill. It was such a hassle to switch pharmacies! Now, what was that",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 3970.4,
+          "classify": 0.0,
+          "pause": 29.9,
+          "llm": 2948.0,
+          "tts": 1154.4,
+          "total": 8104.5
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hi, this is Eric calling from Medicare about your delinquent account.",
+        "timestamp": 1775741988.6322956
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there! Now, what was that name again? Eric, you said? Sorry, I'm a bit fuzzy still since I just got out of the hospital. Delinquent account, you say? Oh goodness, my head's spinning a bit. Can you repeat that part?",
+        "timestamp": 1775741988.6322956
+      },
+      {
+        "role": "caller",
+        "text": "Eric calling from Medicare about your delinquent account.",
+        "timestamp": 1775742017.8155844
+      },
+      {
+        "role": "bot",
+        "text": "Oh, yes, yes, Eric! Thank you for repeating that. Now, let me see... I think I need to find my Medicare card. Hold on a moment, let me look in my purse... it's somewhere in here. Uh, is it... oh dear, I can't quite remember if",
+        "timestamp": 1775742017.8155844
+      },
+      {
+        "role": "caller",
+        "text": "You",
+        "timestamp": 1775742043.4936433
+      },
+      {
+        "role": "bot",
+        "text": "What? Oh, you were saying something, Eric? I'm so sorry, it's a little hard for me to catch everything. I just refilled my prescription for heart medication, you know, the one I call my ticker pill. It was such a hassle to switch pharmacies! Now, what was that",
+        "timestamp": 1775742043.4936433
+      }
+    ],
+    "end_time": 1775742043.4936433
   }
 }

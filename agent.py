@@ -120,9 +120,9 @@ def handle_turn(audio_url: str, call_id: str) -> str:
     llm_start = time.time()
     try:
         completion = client.chat.completions.create(
-            model="gpt-3.5-turbo",  #"gpt-4o-mini",
+            model="gpt-4o-mini",  #"gpt-3.5-turbo",  #
             messages=[{"role": "system", "content": system}] + history,
-            max_tokens=40,
+            max_tokens=60,
             temperature=0.9,
         )
         response_text = completion.choices[0].message.content.strip()

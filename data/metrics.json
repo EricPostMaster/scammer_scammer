@@ -113,6 +113,24 @@
       "duration": 120.4,
       "turns": 4,
       "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CA2052cf667ed28a452db82c56efe3a20b",
+      "duration": 52.6,
+      "turns": 2,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA6ecd5745eddf5c63c9624deec9664a44",
+      "duration": 52.2,
+      "turns": 2,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA9e70c5932dfe27cdc7edb18e7ee1914e",
+      "duration": 79.7,
+      "turns": 3,
+      "scam_type": "medicare"
     }
   ]
 }

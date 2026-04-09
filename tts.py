@@ -13,7 +13,7 @@ Path("audio").mkdir(exist_ok=True)
 
 # ElevenLabs voice IDs for elderly-sounding female voices
 # Find more at https://elevenlabs.io/app/voice-library
-ELEVENLABS_VOICE_ID = "JBFqnCBsd6RMkjVDRZzb" #"8TMmdpPgqHKvDOGYP2lN"
+ELEVENLABS_VOICE_ID = "MKlLqCItoCkvdhrxgtLv"  # Grampa Werthers  ## "8TMmdpPgqHKvDOGYP2lN"  # Gregory Grumble premium   # (Others: "JBFqnCBsd6RMkjVDRZzb", "8TMmdpPgqHKvDOGYP2lN")
 
 
 def synthesize(text: str, call_id: str) -> str:
@@ -30,7 +30,7 @@ def synthesize(text: str, call_id: str) -> str:
             audio = client.text_to_speech.convert(
                 text=text,
                 voice_id=ELEVENLABS_VOICE_ID,
-                model_id="eleven_flash_v2",
+                model_id="eleven_flash_v2_5",
                 output_format="mp3_44100_128"
             )
             with open(path, "wb") as f:
