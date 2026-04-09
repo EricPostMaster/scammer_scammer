@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phony Baloney — The Scam Call Delay Bot</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────────────────────── -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <span class="nav-logo">📞 Phony Baloney</span>
+      <a href="#how-it-works" class="nav-link">How It Works</a>
+      <a href="#scam-types" class="nav-link">Scam Types</a>
+      <a href="#dashboard" class="nav-link">Dashboard</a>
+      <a href="http://localhost:8080/" class="nav-cta">View Dashboard →</a>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">🤖 AI-Powered Scam Defense</div>
+      <h1 class="hero-headline">Meet Harold.<br/>He's very confused.<br/><em>That's the point.</em></h1>
+      <p class="hero-sub">
+        Phony Baloney is an AI voice bot that answers scam calls and keeps fraudsters on the line — wasting their time so they can't waste yours.
+      </p>
+      <div class="hero-actions">
+        <a href="#how-it-works" class="btn btn-primary">See How It Works ↓</a>
+        <a href="http://localhost:8080/" class="btn btn-outline">View Dashboard</a>
+      </div>
+    </div>
+    <div class="hero-image-wrap">
+      <div class="harold-image hero-harold">
+        <img src="harold_phone.jpg" alt="Harold on the phone" class="harold-photo" />
+      </div>
+        <div class="harold-caption">"Hold on dear, let me turn down the television…"</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── THE PROBLEM ───────────────────────────────────────────────────────── -->
+  <section class="problem">
+    <div class="container">
+      <p class="section-eyebrow light">The Problem</p>
+      <h2 class="section-title light">The scam epidemic is costing<br/>America billions.</h2>
+      <div class="stat-block">
+        <div class="big-stat">$81.5B</div>
+        <p class="stat-label">lost by Americans to scammers in 2024 alone — targeting seniors, veterans, and everyday people.</p>
+      </div>
+      <p class="problem-body">
+        Phone scammers run call centers like businesses. The more calls they complete per hour, the more money they make. They are optimized, relentless, and getting harder to stop.
+      </p>
+      <p class="problem-body">
+        Most people hang up. We don't.
+      </p>
+      <div class="callout-box">
+        <div class="callout-icon">💡</div>
+        <div class="callout-text">
+          <strong>If Phony Baloney can divert even 0.1% of scammers' call time,</strong> the increased opportunity cost could protect Americans from nearly <strong>$1 billion in losses</strong> — by making scam calls less profitable to place in the first place.
+        </div>
+      </div>
+      <p class="closing-kicker">The best way to fight a scammer isn't to warn people.<br/>It's to make fraud <em>unprofitable.</em></p>
+    </div>
+  </section>
+
+  <!-- ─── HOW IT WORKS ─────────────────────────────────────────────────────── -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <p class="section-eyebrow">The System</p>
+      <h2 class="section-title">How Phony Baloney works</h2>
+      <p class="section-intro">A fully automated voice loop — no human needed. Harold handles everything.</p>
+
+      <div class="steps-grid">
+
+        <div class="step">
+          <div class="step-number">01</div>
+          <div class="step-icon">📱</div>
+          <h3 class="step-title">Scammer Calls In</h3>
+          <p class="step-body">A known or suspected scam number dials in. Twilio receives the call and routes it to Harold.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">02</div>
+          <div class="step-icon">👴</div>
+          <h3 class="step-title">Harold Picks Up</h3>
+          <p class="step-body">The bot answers in Harold's AI-generated voice: <em>"Oh hello? One second dear, let me turn down the television…"</em></p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">03</div>
+          <div class="step-icon">👂</div>
+          <h3 class="step-title">Listen &amp; Classify</h3>
+          <p class="step-body">The scammer's speech is transcribed in real time. The system detects the scam type and loads Harold's matching playbook.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">04</div>
+          <div class="step-icon">🤔</div>
+          <h3 class="step-title">Harold Gets Confused</h3>
+          <p class="step-body">A language model generates Harold's response: hard of hearing, fumbling for a pen, going on a tangent about his cat. Every word is designed to buy more time.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">05</div>
+          <div class="step-icon">🔊</div>
+          <h3 class="step-title">Harold Talks Back</h3>
+          <p class="step-body">The response is synthesized into Harold's voice using AI text-to-speech and played back to the scammer.</p>
+        </div>
+
+        <div class="step step-last">
+          <div class="step-number">06</div>
+          <div class="step-icon">🔄</div>
+          <h3 class="step-title">Repeat Until They Give Up</h3>
+          <p class="step-body">The loop continues — recording, transcribing, generating, speaking — wasting the scammer's most valuable resource: <strong>time.</strong></p>
+        </div>
+
+      </div>
+
+      <!-- Flow diagram -->
+      <div class="flow-diagram">
+        <div class="flow-node flow-phone">📞<br/><small>Scammer</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node flow-twilio">📡<br/><small>Twilio</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node flow-ai">🧠<br/><small>AI Pipeline</small></div>
+        <div class="flow-arrow">→</div>
+        <div class="flow-node flow-harold">👴<br/><small>Harold's Voice</small></div>
+        <div class="flow-arrow flow-arrow-loop">↩ loop</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── MEET HAROLD ──────────────────────────────────────────────────────── -->
+  <section class="meet-harold">
+    <div class="container">
+      <div class="harold-split">
+
+        <div class="harold-portrait-wrap">
+          <div class="harold-image portrait-harold">
+            <img src="harold_cat.jpg" alt="Harold with his cat Biscuit" class="harold-portrait-photo" />
+          </div>
+        </div>
+
+        <div class="harold-bio">
+          <p class="section-eyebrow">The Agent</p>
+          <h2 class="section-title">Meet Harold</h2>
+          <p class="bio-body">Harold is 77 years old. He lives alone, watches a lot of TV, and has a cat named Biscuit.</p>
+          <p class="bio-body">He's hard of hearing. He mixes up numbers. He frequently needs to find a pen. He once spent four minutes looking for his Medicare card while narrating every step.</p>
+          <p class="bio-body">He is also completely fictional — a persona carefully engineered to maximize the time a scammer stays on the line.</p>
+          <p class="bio-kicker"><strong>Harold never breaks character. Harold never hangs up first.</strong></p>
+
+          <div class="harold-traits">
+            <span class="trait">🦻 Hard of hearing</span>
+            <span class="trait">🤷 Easily confused</span>
+            <span class="trait">📄 Slow with paperwork</span>
+            <span class="trait">🐱 Has a cat named Biscuit</span>
+            <span class="trait">💻 Grandson set up the computer</span>
+            <span class="trait">📍 Can never remember his new address</span>
+            <span class="trait">🕶️ Always looking for his glasses</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SCAM TYPES ───────────────────────────────────────────────────────── -->
+  <section class="scam-types" id="scam-types">
+    <div class="container">
+      <p class="section-eyebrow">Coverage</p>
+      <h2 class="section-title">Harold is ready for anything</h2>
+      <p class="section-intro">The system automatically classifies every call and loads the right playbook for Harold.</p>
+
+      <div class="scam-grid">
+
+        <div class="scam-card">
+          <div class="scam-icon">🏥</div>
+          <h3 class="scam-name">Medicare Fraud</h3>
+          <p class="scam-hook">"Your benefits are about to expire."</p>
+          <p class="scam-harold"><strong>Harold's move:</strong> Slowly reads a wrong Medicare ID, corrects it, then says he needs his glasses to read the card properly. Mentions his recent trip to the doctor for a concerning situation.</p>
+        </div>
+
+        <div class="scam-card">
+          <div class="scam-icon">🏛️</div>
+          <h3 class="scam-name">IRS Impersonation</h3>
+          <p class="scam-hook">"You'll be arrested if you don't act now."</p>
+          <p class="scam-harold"><strong>Harold's move:</strong> Panics just enough to seem compliant, but can't find a pencil. Asks them to repeat the case number letter by letter. His computer is also loading very slowly.</p>
+        </div>
+
+        <div class="scam-card">
+          <div class="scam-icon">💻</div>
+          <h3 class="scam-name">Tech Support</h3>
+          <p class="scam-hook">"Your computer has a virus."</p>
+          <p class="scam-harold"><strong>Harold's move:</strong> Describes his screen incorrectly, asks what a browser is, mentions he's running Windows 98. Recently installed YouTube for aerobics videos.</p>
+        </div>
+
+        <div class="scam-card">
+          <div class="scam-icon">🏠</div>
+          <h3 class="scam-name">Mortgage Refinance</h3>
+          <p class="scam-hook">"We can lower your rate today."</p>
+          <p class="scam-harold"><strong>Harold's move:</strong> Mentions his late wife used to handle these things. Attempts to find the account number in a filing cabinet. Narrates the entire search.</p>
+        </div>
+
+        <div class="scam-card">
+          <div class="scam-icon">❤️</div>
+          <h3 class="scam-name">Romance Scam</h3>
+          <p class="scam-hook">"I've fallen for you…"</p>
+          <p class="scam-harold"><strong>Harold's move:</strong> Asks them to spell their name again. Goes on a lengthy tangent about Biscuit the cat. Describes a TV show plot in full detail.</p>
+        </div>
+
+        <div class="scam-card scam-card-generic">
+          <div class="scam-icon">📞</div>
+          <h3 class="scam-name">Unknown / Generic</h3>
+          <p class="scam-hook">Anything else.</p>
+          <p class="scam-harold"><strong>Harold's move:</strong> Turns down the TV, asks what company they're calling from, and wonders if they have family in Utah. He has a great restaurant story about that.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── DASHBOARD ─────────────────────────────────────────────────────────── -->
+  <section class="dashboard-section" id="dashboard">
+    <div class="container">
+      <div class="dashboard-split">
+
+        <div class="dashboard-info">
+          <p class="section-eyebrow">Monitoring</p>
+          <h2 class="section-title">Every call.<br/>Every minute.<br/>Tracked.</h2>
+          <p class="dashboard-body">Phony Baloney logs every interaction in real time. The built-in dashboard makes the impact impossible to miss.</p>
+          <ul class="dashboard-features">
+            <li><span class="check">✓</span> Total calls intercepted &amp; cumulative time wasted</li>
+            <li><span class="check">✓</span> Call duration distribution</li>
+            <li><span class="check">✓</span> Turns per call — every back-and-forth Harold extracted</li>
+            <li><span class="check">✓</span> Scam type breakdown by volume</li>
+            <li><span class="check">✓</span> Full turn-by-turn transcripts — read exactly what was said</li>
+          </ul>
+          <a href="http://localhost:8080/" class="btn btn-primary">Open Dashboard →</a>
+        </div>
+
+        <div class="dashboard-mockup">
+          <div class="mockup-browser">
+            <div class="mockup-bar">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+              <span class="mockup-url">localhost:8501 — Scam Bot Dashboard</span>
+            </div>
+            <div class="mockup-screen">
+              <div class="mockup-title">Scam Call Delay Bot — Dashboard</div>
+
+              <div class="mockup-metrics">
+                <div class="mockup-metric">
+                  <div class="mockup-metric-val">47</div>
+                  <div class="mockup-metric-label">Total Calls</div>
+                </div>
+                <div class="mockup-metric">
+                  <div class="mockup-metric-val">6m 12s</div>
+                  <div class="mockup-metric-label">Avg Duration</div>
+                </div>
+                <div class="mockup-metric">
+                  <div class="mockup-metric-val">8.4</div>
+                  <div class="mockup-metric-label">Avg Turns</div>
+                </div>
+                <div class="mockup-metric mockup-metric-highlight">
+                  <div class="mockup-metric-val">4h 52m</div>
+                  <div class="mockup-metric-label">Time Wasted</div>
+                </div>
+              </div>
+
+              <div class="mockup-charts">
+                <div class="mockup-chart">
+                  <div class="mockup-chart-label">Call Duration (seconds)</div>
+                  <div class="mockup-bars">
+                    <div class="mockup-bar-wrap"><div class="mockup-bar-fill" style="height:30%"></div></div>
+                    <div class="mockup-bar-wrap"><div class="mockup-bar-fill" style="height:65%"></div></div>
+                    <div class="mockup-bar-wrap"><div class="mockup-bar-fill" style="height:100%"></div></div>
+                    <div class="mockup-bar-wrap"><div class="mockup-bar-fill" style="height:80%"></div></div>
+                    <div class="mockup-bar-wrap"><div class="mockup-bar-fill" style="height:45%"></div></div>
+                    <div class="mockup-bar-wrap"><div class="mockup-bar-fill" style="height:25%"></div></div>
+                  </div>
+                </div>
+                <div class="mockup-chart">
+                  <div class="mockup-chart-label">Scam Types</div>
+                  <div class="mockup-hbars">
+                    <div class="mockup-hbar-row"><span class="mockup-hbar-name">Medicare</span><div class="mockup-hbar-fill" style="width:80%"></div></div>
+                    <div class="mockup-hbar-row"><span class="mockup-hbar-name">IRS</span><div class="mockup-hbar-fill" style="width:55%"></div></div>
+                    <div class="mockup-hbar-row"><span class="mockup-hbar-name">Tech</span><div class="mockup-hbar-fill" style="width:45%"></div></div>
+                    <div class="mockup-hbar-row"><span class="mockup-hbar-name">Mortgage</span><div class="mockup-hbar-fill" style="width:30%"></div></div>
+                    <div class="mockup-hbar-row"><span class="mockup-hbar-name">Romance</span><div class="mockup-hbar-fill" style="width:20%"></div></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── THE MATH ───────────────────────────────────────────────────────────── -->
+  <section class="the-math">
+    <div class="container container-narrow">
+      <p class="section-eyebrow light">Impact Model</p>
+      <h2 class="section-title light">Small disruption.<br/>Massive impact.</h2>
+      <p class="math-body">
+        Scammers run call centers like businesses — maximizing throughput to maximize fraud. Phony Baloney attacks that model directly. Tie up a scammer for 7 minutes, and that's one more real person they didn't reach.
+      </p>
+
+      <div class="math-block">
+        <div class="math-row">
+          <span class="math-val">$81,500,000,000</span>
+          <span class="math-op">×</span>
+          <span class="math-val">0.1%</span>
+          <span class="math-op">=</span>
+          <span class="math-result">$81,500,000</span>
+        </div>
+        <p class="math-desc">diverted per 0.1% reduction in scammer throughput</p>
+        <div class="math-arrow">↓ scale across thousands of intercepted calls</div>
+        <div class="math-big">≈ $1 Billion</div>
+        <p class="math-desc">in reduced scammer reach — without changing a single law.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TECH STACK ─────────────────────────────────────────────────────────── -->
+  <section class="tech-stack">
+    <div class="container">
+      <p class="section-eyebrow">Under the Hood</p>
+      <h2 class="section-title">Built with</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <div class="tech-icon">📡</div>
+          <div class="tech-name">Twilio</div>
+          <div class="tech-role">Telephony &amp; call routing</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-icon">⚡</div>
+          <div class="tech-name">FastAPI</div>
+          <div class="tech-role">Backend API (Python)</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-icon">🎙️</div>
+          <div class="tech-name">OpenAI Whisper</div>
+          <div class="tech-role">Speech-to-text transcription</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-icon">🧠</div>
+          <div class="tech-name">OpenAI GPT</div>
+          <div class="tech-role">Harold's persona &amp; responses</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-icon">🔊</div>
+          <div class="tech-name">OpenAI TTS</div>
+          <div class="tech-role">Harold's voice synthesis</div>
+        </div>
+        <div class="tech-item">
+          <div class="tech-icon">📊</div>
+          <div class="tech-name">Streamlit</div>
+          <div class="tech-role">Live monitoring dashboard</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─────────────────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">📞 Phony Baloney</span>
+        <p class="footer-tagline">Keeping scammers busy since 2026.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#dashboard" class="footer-link">Dashboard</a>
+        <a href="#how-it-works" class="footer-link">How It Works</a>
+        <a href="https://github.com" class="footer-link">GitHub</a>
+      </div>
+    </div>
+    <div class="container footer-disclaimer">
+      This project is an independent tool. It is not affiliated with any government agency or telecommunications provider.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>

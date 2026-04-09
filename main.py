@@ -34,7 +34,7 @@ def incoming_call(CallSid: str = Form(...)):
         logger.init_call(CallSid)
 
         # Generate greeting with the bot's voice instead of Twilio's default
-        greeting_text = "Oh hello? One second dear, let me turn down the television... <break> May I ask who's calling?"
+        greeting_text = "Oh hello? One second dear, let me turn down the television... May I ask who's calling?"
         greeting_audio = agent.get_greeting(greeting_text, CallSid)
 
         resp = VoiceResponse()

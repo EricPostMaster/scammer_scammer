@@ -1555,5 +1555,265 @@
       }
     ],
     "end_time": 1775742043.4936433
+  },
+  "CA26d87fca1c687be9fc943b3f9ecb1689": {
+    "start_time": 1775742759.295838,
+    "scam_type": "unknown",
+    "turns": [],
+    "conversation": []
+  },
+  "CA9e3646993af3efd2090ebbb46808e03c": {
+    "start_time": 1775747184.9167545,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775747211.6222568,
+        "caller_transcript": "Yes, yes, this is Eric.",
+        "bot_response": "Oh my, could you say that again? I didn't quite catch it, dear.",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 5732.6,
+          "classify": 0.0,
+          "pause": 21.2,
+          "llm": 1137.8,
+          "tts": 1104.9,
+          "total": 7997.4
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775747226.6852489,
+        "caller_transcript": "Hmm, yeah, this is Eric.",
+        "bot_response": "Oh my, could you say that again? I didn't quite catch it, dear.",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 1438.0,
+          "classify": 0.0,
+          "pause": 23.9,
+          "llm": 767.0,
+          "tts": 897.9,
+          "total": 3127.8
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yes, yes, this is Eric.",
+        "timestamp": 1775747211.6222568
+      },
+      {
+        "role": "bot",
+        "text": "Oh my, could you say that again? I didn't quite catch it, dear.",
+        "timestamp": 1775747211.6222568
+      },
+      {
+        "role": "caller",
+        "text": "Hmm, yeah, this is Eric.",
+        "timestamp": 1775747226.6852489
+      },
+      {
+        "role": "bot",
+        "text": "Oh my, could you say that again? I didn't quite catch it, dear.",
+        "timestamp": 1775747226.6852489
+      }
+    ],
+    "end_time": 1775747226.6852489
+  },
+  "CAc42f4fb644f420dda5eb01531a0b7fd0": {
+    "start_time": 1775747374.7746556,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775747398.700509,
+        "caller_transcript": "This is Eric. Please work.",
+        "bot_response": "Oh, hello Eric! Now, what was that again? Work, you said? Hold on, let me find my glasses... Oh wait, I think I got tangled up in my chair. Now what do you need help with?",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 2475.8,
+          "classify": 0.0,
+          "pause": 21.5,
+          "llm": 1815.7,
+          "tts": 872.5,
+          "total": 5186.3
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775747421.8618858,
+        "caller_transcript": "I'm calling about your delinquent Medicare account.",
+        "bot_response": "Oh dear, Medicare, you say? Hmm, I was just telling someone about how I went to the doctor last week. There was this grossest thing I\u2019ve ever seen, I tell ya. Hold on a second, let me find my Medicare card... or was it my prescription list? Hold",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1809.2,
+          "classify": 0.0,
+          "pause": 22.7,
+          "llm": 868.1,
+          "tts": 959.2,
+          "total": 3659.6
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "This is Eric. Please work.",
+        "timestamp": 1775747398.700509
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello Eric! Now, what was that again? Work, you said? Hold on, let me find my glasses... Oh wait, I think I got tangled up in my chair. Now what do you need help with?",
+        "timestamp": 1775747398.700509
+      },
+      {
+        "role": "caller",
+        "text": "I'm calling about your delinquent Medicare account.",
+        "timestamp": 1775747421.8618858
+      },
+      {
+        "role": "bot",
+        "text": "Oh dear, Medicare, you say? Hmm, I was just telling someone about how I went to the doctor last week. There was this grossest thing I\u2019ve ever seen, I tell ya. Hold on a second, let me find my Medicare card... or was it my prescription list? Hold",
+        "timestamp": 1775747421.8618858
+      }
+    ],
+    "end_time": 1775747421.8618858
+  },
+  "CA4c1319f94dc1b02358fab7c33e488e14": {
+    "start_time": 1775747473.4075625,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775747496.822293,
+        "caller_transcript": "Hi, this is Eric. I'm calling from Medicare",
+        "bot_response": "I'm sorry, the TV is awful loud today. Could you repeat that?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 3786.0,
+          "classify": 0.0,
+          "pause": 22.5,
+          "llm": 785.1,
+          "tts": 749.7,
+          "total": 5344.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hi, this is Eric. I'm calling from Medicare",
+        "timestamp": 1775747496.822293
+      },
+      {
+        "role": "bot",
+        "text": "I'm sorry, the TV is awful loud today. Could you repeat that?",
+        "timestamp": 1775747496.822293
+      }
+    ],
+    "end_time": 1775747496.822293
+  },
+  "CA01893ece520f8e1b1552a4720c6f4fcd": {
+    "start_time": 1775747619.0647922,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775747655.9122827,
+        "caller_transcript": "Hi, this is Eric calling from Medicare.",
+        "bot_response": "Oh, hello there Eric, this is Harold\u2014could you speak up a bit, I\u2019m hard of hearing. \nI\u2019ll grab my Medicare card, hold on a moment; my grandson set up my computer, so I\u2019m still finding things. \nOkay, I think the number is TK-4-2-1... no, wait, I\u2019m mixed up\u2014FN-2-1-8-7, that\u2019s more like it. \nAnd I take Lisinopril 20 milligrams once a day for my ticker.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1806.9,
+          "classify": 0.0,
+          "pause": 28.0,
+          "llm": 16340.7,
+          "tts": 1299.5,
+          "total": 19476.0
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hi, this is Eric calling from Medicare.",
+        "timestamp": 1775747655.9122827
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there Eric, this is Harold\u2014could you speak up a bit, I\u2019m hard of hearing. \nI\u2019ll grab my Medicare card, hold on a moment; my grandson set up my computer, so I\u2019m still finding things. \nOkay, I think the number is TK-4-2-1... no, wait, I\u2019m mixed up\u2014FN-2-1-8-7, that\u2019s more like it. \nAnd I take Lisinopril 20 milligrams once a day for my ticker.",
+        "timestamp": 1775747655.9122827
+      }
+    ],
+    "end_time": 1775747655.9122827
+  },
+  "CA8c3493c067518ef4807a19b567e09c55": {
+    "start_time": 1775747875.7543578,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775747920.2642236,
+        "caller_transcript": "This is Eric calling from Medicare.",
+        "bot_response": "Hi Eric, Medicare, right? Could you speak up a bit, I\u2019m hard of hearing. \nNow, what was that number again? I\u2019m slow with all these digits. \nHold on, I\u2019m grabbing my Medicare card\u2014it's in my purse by the TV remote\u2014here we go. \nMedicare ID is TK-4-2-1\u2026 no, wait, FN-2-1-8-7\u2026 what do you need me to do today?",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2730.7,
+          "classify": 0.0,
+          "pause": 22.9,
+          "llm": 15637.4,
+          "tts": 7085.4,
+          "total": 25477.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "This is Eric calling from Medicare.",
+        "timestamp": 1775747920.2642236
+      },
+      {
+        "role": "bot",
+        "text": "Hi Eric, Medicare, right? Could you speak up a bit, I\u2019m hard of hearing. \nNow, what was that number again? I\u2019m slow with all these digits. \nHold on, I\u2019m grabbing my Medicare card\u2014it's in my purse by the TV remote\u2014here we go. \nMedicare ID is TK-4-2-1\u2026 no, wait, FN-2-1-8-7\u2026 what do you need me to do today?",
+        "timestamp": 1775747920.2642236
+      }
+    ],
+    "end_time": 1775747920.2642236
+  },
+  "CA4bdbc9e9e73bd2f440b0623876e6f116": {
+    "start_time": 1775747929.429955,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775747956.7935452,
+        "caller_transcript": "Is this working?",
+        "bot_response": "Yes, yes, it seems to be working\u2014hold on a minute, I\u2019m gettin\u2019 my pen. Now, what was that number again? My grandson set this up for me, he said to stay on the line a bit.",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 2351.9,
+          "classify": 0.0,
+          "pause": 23.5,
+          "llm": 10668.0,
+          "tts": 870.7,
+          "total": 13915.1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Is this working?",
+        "timestamp": 1775747956.7935452
+      },
+      {
+        "role": "bot",
+        "text": "Yes, yes, it seems to be working\u2014hold on a minute, I\u2019m gettin\u2019 my pen. Now, what was that number again? My grandson set this up for me, he said to stay on the line a bit.",
+        "timestamp": 1775747956.7935452
+      }
+    ],
+    "end_time": 1775747956.7935452
   }
 }
