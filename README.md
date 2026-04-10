@@ -41,7 +41,7 @@ Call is logged, number is flagged, metrics are updated
 | **Local tunneling** | ngrok (webhook forwarding during development) |
 | **Speech-to-text** | OpenAI Whisper (`gpt-4o-mini-transcribe`) |
 | **LLM / Persona** | OpenAI GPT (`gpt-4o-mini`) |
-| **Text-to-speech** | OpenAI TTS (`gpt-4o-mini-tts`) |
+| **Text-to-speech** | ElevenLabs (voice synthesis for Harold) |
 | **Storage** | JSON flat files (`call_logs.json`, `metrics.json`, `scam_knowledge.json`) |
 | **Dashboard** | Streamlit |
 | **Landing page** | Vanilla HTML/CSS/JS |
