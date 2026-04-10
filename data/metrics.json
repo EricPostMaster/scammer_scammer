@@ -299,6 +299,36 @@
       "duration": 880.0,
       "turns": 6,
       "scam_type": "romance"
+    },
+    {
+      "call_id": "CAa28db21200f4afeb846f7e875b1c7a03",
+      "duration": 112.7,
+      "turns": 4,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CAcb046f7cb03b346534d03e8c0ec995a0",
+      "duration": 24.1,
+      "turns": 1,
+      "scam_type": "generic"
+    },
+    {
+      "call_id": "CA91e76c9ed9cd8f033c30b8e43e6e07c2",
+      "duration": 28.2,
+      "turns": 1,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CAe922ab8a0e4eb97ee9e1a6610da384bf",
+      "duration": 87.4,
+      "turns": 3,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA1ea3d746e719330ec49c1e0ea0338b34",
+      "duration": 160.9,
+      "turns": 4,
+      "scam_type": "generic"
     }
   ]
 }

@@ -48,9 +48,9 @@ def incoming_call(CallSid: str = Form(...)):
         resp.record(
             action=f"{BASE_URL}/process_audio",
             method="POST",
-            max_length=10,
+            max_length=8.5,
             play_beep=False,
-            timeout=3,
+            timeout=0.5,
         )
         print(f"[INCOMING] Response created successfully")
         return twiml_response(str(resp))
@@ -75,9 +75,8 @@ def process_audio(
         print(f"[PROCESS_AUDIO] CallSid: {CallSid[:8]}..., Status: {CallStatus}")
         
         if CallStatus in ("completed", "canceled", "failed"):
-            # Call ended — submit spam report and return empty TwiML
+            # Call ended — return empty TwiML (spam report handled by /twilio/status callback)
             print(f"[PROCESS_AUDIO] Call ended with status: {CallStatus}")
-            report_spam.submit_phone_number()
             return twiml_response(str(VoiceResponse()))
 
         if not RecordingUrl:
