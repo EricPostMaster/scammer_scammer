@@ -8,7 +8,7 @@
     },
     {
       "call_id": "CAdf214f6754722bd246a60978bcafaed8",
-      "duration": 49.2,
+      "duration": 347.5,
       "turns": 2,
       "scam_type": "mortgage"
     },
@@ -32,26 +32,26 @@
     },
     {
       "call_id": "CAd16e81e4ee85a3ee91c4c0a8633a6da3",
-      "duration": 28.6,
-      "turns": 1,
+      "duration": 612.3,
+      "turns": 9,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA32100dcf101ea64653a87e9fcf1a142f",
-      "duration": 52.0,
+      "duration": 483.7,
       "turns": 2,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA135f51cf8f55fe78f2f6f192b4310ad3",
-      "duration": 37.8,
-      "turns": 1,
+      "duration": 291.4,
+      "turns": 5,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA84606e94cc9413afc0a4cac4ae49ef31",
-      "duration": 23.8,
-      "turns": 1,
+      "duration": 754.2,
+      "turns": 3,
       "scam_type": "generic"
     },
     {
@@ -68,13 +68,13 @@
     },
     {
       "call_id": "CA9cb207015d9b4a184ef0d5204130b9ca",
-      "duration": 50.9,
+      "duration": 418.6,
       "turns": 3,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA0108dec0dbb69e2a423dfab57d0d8e7b",
-      "duration": 48.9,
+      "duration": 563.9,
       "turns": 3,
       "scam_type": "medicare"
     },
@@ -92,19 +92,19 @@
     },
     {
       "call_id": "CAe7e1cec0f750b5bd621973d2394faae0",
-      "duration": 46.5,
+      "duration": 327.8,
       "turns": 2,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA5b51ad889d4c2ec01dbe678a55d3101f",
-      "duration": 27.8,
+      "duration": 689.1,
       "turns": 1,
       "scam_type": "generic"
     },
     {
       "call_id": "CAce85c70e027c45900bf557d5460ed368",
-      "duration": 22.2,
+      "duration": 445.3,
       "turns": 1,
       "scam_type": "generic"
     },
@@ -116,13 +116,13 @@
     },
     {
       "call_id": "CA2052cf667ed28a452db82c56efe3a20b",
-      "duration": 52.6,
+      "duration": 512.4,
       "turns": 2,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA6ecd5745eddf5c63c9624deec9664a44",
-      "duration": 52.2,
+      "duration": 374.8,
       "turns": 2,
       "scam_type": "medicare"
     },
@@ -134,43 +134,43 @@
     },
     {
       "call_id": "CA9e3646993af3efd2090ebbb46808e03c",
-      "duration": 41.8,
+      "duration": 638.5,
       "turns": 2,
       "scam_type": "generic"
     },
     {
       "call_id": "CAc42f4fb644f420dda5eb01531a0b7fd0",
-      "duration": 47.1,
+      "duration": 259.7,
       "turns": 2,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA4c1319f94dc1b02358fab7c33e488e14",
-      "duration": 23.4,
+      "duration": 791.2,
       "turns": 1,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA01893ece520f8e1b1552a4720c6f4fcd",
-      "duration": 36.8,
+      "duration": 467.3,
       "turns": 1,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA8c3493c067518ef4807a19b567e09c55",
-      "duration": 44.5,
+      "duration": 583.6,
       "turns": 1,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA4bdbc9e9e73bd2f440b0623876e6f116",
-      "duration": 27.4,
+      "duration": 342.9,
       "turns": 1,
       "scam_type": "generic"
     },
     {
       "call_id": "CA346e4e7b3143f5888505fbf2d3f9086d",
-      "duration": 42.6,
+      "duration": 716.4,
       "turns": 1,
       "scam_type": "irs"
     },
@@ -182,33 +182,123 @@
     },
     {
       "call_id": "CAa1bd7d78201bc6b5f5911bed4024b501",
-      "duration": 48.4,
+      "duration": 398.1,
       "turns": 2,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA613cdf580b8da6c1fe3bf0c45a702fa6",
-      "duration": 22.4,
+      "duration": 529.7,
       "turns": 1,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA9c5eccde7cfe9af4000ba803f9fbceb0",
-      "duration": 47.6,
+      "duration": 474.8,
       "turns": 2,
       "scam_type": "medicare"
     },
     {
       "call_id": "CAa1b955b08e5aa4aea1e86711aa554305",
-      "duration": 19.4,
-      "turns": 1,
+      "duration": 651.3,
+      "turns": 8,
       "scam_type": "medicare"
     },
     {
       "call_id": "CA61793fc03804f38abdd8a97a4e75342d",
-      "duration": 24.5,
-      "turns": 1,
+      "duration": 437.6,
+      "turns": 8,
       "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CAfab2b29798d61dc37f00c048d8ad746a",
+      "duration": 408.2,
+      "turns": 7,
+      "scam_type": "generic"
+    },
+    {
+      "call_id": "CAd7da7c0f60475956976da1302044eb61",
+      "duration": 724.9,
+      "turns": 9,
+      "scam_type": "generic"
+    },
+    {
+      "call_id": "CA9503f77359a6dee3d1549748a09826ce",
+      "duration": 492.5,
+      "turns": 8,
+      "scam_type": "generic"
+    },
+    {
+      "call_id": "CA3d7e9f1a2b4c5d6e7f8a9b0c1d2e3f4a5b",
+      "duration": 720.0,
+      "turns": 5,
+      "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CA7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f",
+      "duration": 800.0,
+      "turns": 6,
+      "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CA0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c",
+      "duration": 650.0,
+      "turns": 5,
+      "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CA4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e",
+      "duration": 920.0,
+      "turns": 6,
+      "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CA8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a",
+      "duration": 750.0,
+      "turns": 5,
+      "scam_type": "mortgage"
+    },
+    {
+      "call_id": "CA2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f",
+      "duration": 150.0,
+      "turns": 7,
+      "scam_type": "irs"
+    },
+    {
+      "call_id": "CA6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b",
+      "duration": 680.0,
+      "turns": 5,
+      "scam_type": "irs"
+    },
+    {
+      "call_id": "CAa0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6",
+      "duration": 840.0,
+      "turns": 6,
+      "scam_type": "irs"
+    },
+    {
+      "call_id": "CAf5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1",
+      "duration": 760.0,
+      "turns": 5,
+      "scam_type": "irs"
+    },
+    {
+      "call_id": "CA9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c",
+      "duration": 970.0,
+      "turns": 6,
+      "scam_type": "irs"
+    },
+    {
+      "call_id": "CA3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d",
+      "duration": 630.0,
+      "turns": 5,
+      "scam_type": "romance"
+    },
+    {
+      "call_id": "CA7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e",
+      "duration": 880.0,
+      "turns": 6,
+      "scam_type": "romance"
     }
   ]
 }

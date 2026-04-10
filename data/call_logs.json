@@ -2333,5 +2333,960 @@
       }
     ],
     "end_time": 1775759440.2171543
+  },
+  "CAfab2b29798d61dc37f00c048d8ad746a": {
+    "start_time": 1775761782.2377427,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775761806.6689749,
+        "caller_transcript": "This call will join you to a conference. Please say OK or press 1 to join it.",
+        "bot_response": "Oh, hold on, dear, I gotta turn down the TV first, I can't hear you very well. Uh, press 1, did you say? Now what was that number again?",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 3457.9,
+          "classify": 1.0,
+          "pause": 27.6,
+          "llm": 1404.6,
+          "tts": 750.7,
+          "total": 5643.7
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775761822.8277824,
+        "caller_transcript": "You",
+        "bot_response": "Me? Oh, I'm Harold, just an old fella tryin' to keep up. Now, what company did you say you were from again? Sorry, I didn't quite catch that.",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 2092.2,
+          "classify": 0.0,
+          "pause": 20.1,
+          "llm": 816.0,
+          "tts": 761.5,
+          "total": 3690.5
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775761838.548978,
+        "caller_transcript": "You",
+        "bot_response": "Oh, I see, just 'Harold,' huh? Well, I think I need to find my glasses\u2014hang on a second\u2014I'm lookin' for my notepad... uh, where did I put it? Oh, here it is! Now, what was I supposed to do again",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 947.9,
+          "classify": 0.0,
+          "pause": 27.2,
+          "llm": 1014.8,
+          "tts": 952.3,
+          "total": 2943.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "This call will join you to a conference. Please say OK or press 1 to join it.",
+        "timestamp": 1775761806.6689749
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hold on, dear, I gotta turn down the TV first, I can't hear you very well. Uh, press 1, did you say? Now what was that number again?",
+        "timestamp": 1775761806.6689749
+      },
+      {
+        "role": "caller",
+        "text": "You",
+        "timestamp": 1775761822.8277824
+      },
+      {
+        "role": "bot",
+        "text": "Me? Oh, I'm Harold, just an old fella tryin' to keep up. Now, what company did you say you were from again? Sorry, I didn't quite catch that.",
+        "timestamp": 1775761822.8277824
+      },
+      {
+        "role": "caller",
+        "text": "You",
+        "timestamp": 1775761838.548978
+      },
+      {
+        "role": "bot",
+        "text": "Oh, I see, just 'Harold,' huh? Well, I think I need to find my glasses\u2014hang on a second\u2014I'm lookin' for my notepad... uh, where did I put it? Oh, here it is! Now, what was I supposed to do again",
+        "timestamp": 1775761838.548978
+      }
+    ],
+    "end_time": 1775761838.548978
+  },
+  "CAd7da7c0f60475956976da1302044eb61": {
+    "start_time": 1775761896.2086244,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775761919.821824,
+        "caller_transcript": "This call will join you to a conference. Please say OK or press 1 to join it.",
+        "bot_response": "Oh, uh, hold on now... you're saying somethin' about a conference call? Now what was that was it again? Okay, okay, just a moment...",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 2338.0,
+          "classify": 0.0,
+          "pause": 23.4,
+          "llm": 949.9,
+          "tts": 713.7,
+          "total": 4025.7
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775761934.2461307,
+        "caller_transcript": "You",
+        "bot_response": "Oh, hello there! You want me to do somethin' now? Sorry, I got a little distracted... I think I need to find my pen to write this down. Do you mind speakin' up a little?",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 1566.2,
+          "classify": 0.0,
+          "pause": 28.2,
+          "llm": 739.7,
+          "tts": 840.0,
+          "total": 3176.1
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "This call will join you to a conference. Please say OK or press 1 to join it.",
+        "timestamp": 1775761919.821824
+      },
+      {
+        "role": "bot",
+        "text": "Oh, uh, hold on now... you're saying somethin' about a conference call? Now what was that was it again? Okay, okay, just a moment...",
+        "timestamp": 1775761919.821824
+      },
+      {
+        "role": "caller",
+        "text": "You",
+        "timestamp": 1775761934.2461307
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello there! You want me to do somethin' now? Sorry, I got a little distracted... I think I need to find my pen to write this down. Do you mind speakin' up a little?",
+        "timestamp": 1775761934.2461307
+      }
+    ],
+    "end_time": 1775761934.2461307
+  },
+  "CA9503f77359a6dee3d1549748a09826ce": {
+    "start_time": 1775763049.548827,
+    "scam_type": "generic",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775763075.9441414,
+        "caller_transcript": "This call will join you to a conference. Please say OK or press 1 to join it.",
+        "bot_response": "Oh, a conference call? Well now, what was that again? You said press 1 or just say OK? Hold on, I need to find my reading glasses... and what was I saying? Oh, yes, I have family in... uh, which state now? I always get mixed",
+        "scam_type": "generic",
+        "timings_ms": {
+          "stt": 3379.4,
+          "classify": 0.0,
+          "pause": 24.9,
+          "llm": 1507.3,
+          "tts": 1057.8,
+          "total": 5970.5
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "This call will join you to a conference. Please say OK or press 1 to join it.",
+        "timestamp": 1775763075.9441414
+      },
+      {
+        "role": "bot",
+        "text": "Oh, a conference call? Well now, what was that again? You said press 1 or just say OK? Hold on, I need to find my reading glasses... and what was I saying? Oh, yes, I have family in... uh, which state now? I always get mixed",
+        "timestamp": 1775763075.9441414
+      }
+    ],
+    "end_time": 1775763075.9441414
+  },
+  "CA3d7e9f1a2b4c5d6e7f8a9b0c1d2e3f4a5b": {
+    "start_time": 1775770000.0,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775770030.0,
+        "caller_transcript": "Hello, this is Dave calling from First National Mortgage. Am I speaking with the homeowner?",
+        "bot_response": "Oh, yes, yes, this is the homeowner! Uh, which mortgage was this? I have a couple of things going on with the house, my late husband handled most of that. Could you speak up a little, dear?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3105.2, "classify": 0.0, "pause": 22.1, "llm": 1643.4, "tts": 1122.8, "total": 5893.5 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775770150.0,
+        "caller_transcript": "Yes ma'am, we've identified that you may qualify for a special government mortgage relief program that could lower your payment by up to 40%. I just need to verify your account details.",
+        "bot_response": "Oh my, 40 percent? That does sound wonderful! Now, which account details do you need? I keep all my papers in a shoebox in the closet, just give me a moment to find it. And what did you say your name was again, Dave?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3820.1, "classify": 0.0, "pause": 25.4, "llm": 1580.6, "tts": 1045.9, "total": 6472.0 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775770295.0,
+        "caller_transcript": "Yes, Dave Williams. I'll need your current lender name, your account number, and the last four of your social security number to pull up your file.",
+        "bot_response": "Oh, well let me see... my lender, I think it's... oh, I have it written on a sticky note somewhere. Hold on, hold on. Let me check my purse first. I think I wrote it down when the nice man at the bank helped me. The account number... is it the one on my statement? Let me find my reading glasses.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3411.7, "classify": 0.0, "pause": 21.3, "llm": 1720.2, "tts": 1234.6, "total": 6387.8 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775770460.0,
+        "caller_transcript": "Take your time, no rush. I do need the last four digits of your social as well to verify your identity.",
+        "bot_response": "Oh, the social security number! Well, it ends in... hmm, is it 4421 or 4412? Harold, my husband, always remembered it. I wrote it down somewhere. Oh, I'm sorry, I'm just getting a bit confused. Could you hold just one more moment while I look in my kitchen drawer?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 2988.5, "classify": 0.0, "pause": 23.7, "llm": 1498.3, "tts": 1087.4, "total": 5597.9 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775770620.0,
+        "caller_transcript": "Sure. Also, there is a small processing fee of $299 to lock in this rate. We can put that on a prepaid card or I can take a routing number.",
+        "bot_response": "A fee? Oh dear, my grandson tells me I should never give out my routing number on the phone. Could you send me something in the mail? I like to have David, that's my grandson, look over these things with me. What address should I send a check to? I want to make sure this is all on the up and up.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3654.9, "classify": 0.0, "pause": 26.8, "llm": 1802.1, "tts": 1199.3, "total": 6683.1 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hello, this is Dave calling from First National Mortgage. Am I speaking with the homeowner?", "timestamp": 1775770030.0},
+      {"role": "bot", "text": "Oh, yes, yes, this is the homeowner! Uh, which mortgage was this? I have a couple of things going on with the house, my late husband handled most of that. Could you speak up a little, dear?", "timestamp": 1775770030.0},
+      {"role": "caller", "text": "Yes ma'am, we've identified that you may qualify for a special government mortgage relief program that could lower your payment by up to 40%. I just need to verify your account details.", "timestamp": 1775770150.0},
+      {"role": "bot", "text": "Oh my, 40 percent? That does sound wonderful! Now, which account details do you need? I keep all my papers in a shoebox in the closet, just give me a moment to find it. And what did you say your name was again, Dave?", "timestamp": 1775770150.0},
+      {"role": "caller", "text": "Yes, Dave Williams. I'll need your current lender name, your account number, and the last four of your social security number to pull up your file.", "timestamp": 1775770295.0},
+      {"role": "bot", "text": "Oh, well let me see... my lender, I think it's... oh, I have it written on a sticky note somewhere. Hold on, hold on. Let me check my purse first. I think I wrote it down when the nice man at the bank helped me. The account number... is it the one on my statement? Let me find my reading glasses.", "timestamp": 1775770295.0},
+      {"role": "caller", "text": "Take your time, no rush. I do need the last four digits of your social as well to verify your identity.", "timestamp": 1775770460.0},
+      {"role": "bot", "text": "Oh, the social security number! Well, it ends in... hmm, is it 4421 or 4412? Harold, my husband, always remembered it. I wrote it down somewhere. Oh, I'm sorry, I'm just getting a bit confused. Could you hold just one more moment while I look in my kitchen drawer?", "timestamp": 1775770460.0},
+      {"role": "caller", "text": "Sure. Also, there is a small processing fee of $299 to lock in this rate. We can put that on a prepaid card or I can take a routing number.", "timestamp": 1775770620.0},
+      {"role": "bot", "text": "A fee? Oh dear, my grandson tells me I should never give out my routing number on the phone. Could you send me something in the mail? I like to have David, that's my grandson, look over these things with me. What address should I send a check to? I want to make sure this is all on the up and up.", "timestamp": 1775770620.0}
+    ],
+    "end_time": 1775770720.0
+  },
+  "CA7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f": {
+    "start_time": 1775773000.0,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775773040.0,
+        "caller_transcript": "Hi there, I'm calling from the Homeowner Assistance Division. We have a record of your property at 142 Elm Street and I need to speak with you about your outstanding mortgage balance.",
+        "bot_response": "Oh! 142 Elm Street, yes, that's my address. Well, what about the balance? I thought I was all caught up. Did something happen? My son usually handles the bills but he's been so busy lately.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3287.4, "classify": 0.0, "pause": 24.2, "llm": 1591.8, "tts": 1143.0, "total": 6046.4 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775773170.0,
+        "caller_transcript": "Ma'am, our records show that you've missed three payments. If we can't get this resolved today, your home may go into foreclosure proceedings.",
+        "bot_response": "Foreclosure! Oh my goodness, that can't be right. I've lived here for 34 years! Let me... oh, I need to sit down. Now, who did you say you are with? The Homeowner what? I just want to make sure I have your name down on paper.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3501.3, "classify": 0.0, "pause": 20.8, "llm": 1743.7, "tts": 986.2, "total": 6251.0 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775773320.0,
+        "caller_transcript": "This is Agent Brian Foster, case number 88421. To stop the proceedings we need a payment today. We accept wire transfer, Zelle, or prepaid gift cards.",
+        "bot_response": "Gift cards? Like from the grocery store? My neighbor Edna said someone asked her for those and it turned out to be a scam. But you seem very official. Let me just call my son Michael first to make sure. Would that be alright? I have his number right here somewhere.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3045.6, "classify": 0.0, "pause": 22.5, "llm": 1628.4, "tts": 1211.7, "total": 5908.2 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775773490.0,
+        "caller_transcript": "Ma'am, if you hang up, the system will automatically flag your account for immediate foreclosure. You must stay on the line to resolve this.",
+        "bot_response": "Oh dear, I mustn't hang up! Okay, okay. Well, let me at least try to find my checkbook. I have it in one of two places. Could you just, uh, hold on? I need to walk to the other room. I'm not as fast as I used to be since my hip replacement.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 2899.1, "classify": 0.0, "pause": 25.3, "llm": 1684.9, "tts": 1098.5, "total": 5707.8 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775773650.0,
+        "caller_transcript": "That's fine, take your time. How much do you have available on a prepaid card?",
+        "bot_response": "Well, I'm not sure. I have a Walmart gift card my grandson gave me for Christmas, I think it has about twenty or thirty dollars on it. Is that enough? And I have my Visa debit card. Oh, let me find my reading glasses, I can never read those little numbers without them. Now where did I put them...",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3712.8, "classify": 0.0, "pause": 23.1, "llm": 1557.3, "tts": 1320.4, "total": 6613.6 }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775773760.0,
+        "caller_transcript": "We can work with a debit card. I'll need the full card number, expiration, and the three digit code on the back.",
+        "bot_response": "The three digit code, yes. Now let me see... oh, I keep dropping the card. My hands aren't what they used to be. Give me just another moment. It starts with 4... now hold on, is this the right card? I have three of them in here and they all look the same to me.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3188.2, "classify": 0.0, "pause": 21.7, "llm": 1791.5, "tts": 1055.8, "total": 6057.2 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hi there, I'm calling from the Homeowner Assistance Division. We have a record of your property at 142 Elm Street and I need to speak with you about your outstanding mortgage balance.", "timestamp": 1775773040.0},
+      {"role": "bot", "text": "Oh! 142 Elm Street, yes, that's my address. Well, what about the balance? I thought I was all caught up. Did something happen? My son usually handles the bills but he's been so busy lately.", "timestamp": 1775773040.0},
+      {"role": "caller", "text": "Ma'am, our records show that you've missed three payments. If we can't get this resolved today, your home may go into foreclosure proceedings.", "timestamp": 1775773170.0},
+      {"role": "bot", "text": "Foreclosure! Oh my goodness, that can't be right. I've lived here for 34 years! Let me... oh, I need to sit down. Now, who did you say you are with? The Homeowner what? I just want to make sure I have your name down on paper.", "timestamp": 1775773170.0},
+      {"role": "caller", "text": "This is Agent Brian Foster, case number 88421. To stop the proceedings we need a payment today. We accept wire transfer, Zelle, or prepaid gift cards.", "timestamp": 1775773320.0},
+      {"role": "bot", "text": "Gift cards? Like from the grocery store? My neighbor Edna said someone asked her for those and it turned out to be a scam. But you seem very official. Let me just call my son Michael first to make sure. Would that be alright? I have his number right here somewhere.", "timestamp": 1775773320.0},
+      {"role": "caller", "text": "Ma'am, if you hang up, the system will automatically flag your account for immediate foreclosure. You must stay on the line to resolve this.", "timestamp": 1775773490.0},
+      {"role": "bot", "text": "Oh dear, I mustn't hang up! Okay, okay. Well, let me at least try to find my checkbook. I have it in one of two places. Could you just, uh, hold on? I need to walk to the other room. I'm not as fast as I used to be since my hip replacement.", "timestamp": 1775773490.0},
+      {"role": "caller", "text": "That's fine, take your time. How much do you have available on a prepaid card?", "timestamp": 1775773650.0},
+      {"role": "bot", "text": "Well, I'm not sure. I have a Walmart gift card my grandson gave me for Christmas, I think it has about twenty or thirty dollars on it. Is that enough? And I have my Visa debit card. Oh, let me find my reading glasses, I can never read those little numbers without them. Now where did I put them...", "timestamp": 1775773650.0},
+      {"role": "caller", "text": "We can work with a debit card. I'll need the full card number, expiration, and the three digit code on the back.", "timestamp": 1775773760.0},
+      {"role": "bot", "text": "The three digit code, yes. Now let me see... oh, I keep dropping the card. My hands aren't what they used to be. Give me just another moment. It starts with 4... now hold on, is this the right card? I have three of them in here and they all look the same to me.", "timestamp": 1775773760.0}
+    ],
+    "end_time": 1775773800.0
+  },
+  "CA0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c": {
+    "start_time": 1775776000.0,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775776025.0,
+        "caller_transcript": "Good afternoon, this is the Federal Mortgage Reduction Program calling. You've been selected for a rate reduction on your home loan. Is this the homeowner?",
+        "bot_response": "Yes, I'm the homeowner. Federal Mortgage Reduction, did you say? Well that sounds very important. How did you get my number? My name is Dorothy. Are you from the government?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3341.0, "classify": 0.0, "pause": 23.6, "llm": 1612.4, "tts": 1078.3, "total": 6055.3 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775776140.0,
+        "caller_transcript": "Yes ma'am, we work in conjunction with HUD to lower rates for qualifying homeowners. I can get your rate down to 2.1%. I just need to pull up your profile. What bank holds your mortgage?",
+        "bot_response": "HUD, yes I've heard of that. Oh, the bank... now let me think. It's either Wells Fargo or maybe it's the one downtown. I moved everything around after Harold passed. Could you look me up by my address? It's 78 Blossom Lane.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3598.7, "classify": 0.0, "pause": 22.0, "llm": 1534.5, "tts": 1189.6, "total": 6344.8 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775776280.0,
+        "caller_transcript": "I see your file. Your current rate is 6.8% and we can bring it down significantly. I do need your loan account number to initiate the transfer. It should be on your most recent mortgage statement.",
+        "bot_response": "My mortgage statement! Now, I get so much mail. I think I threw some of it away by mistake. Could you hold on while I check the pile on the kitchen table? I keep meaning to go through it but my back has been acting up. Just one moment now.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 2876.4, "classify": 0.0, "pause": 24.9, "llm": 1703.8, "tts": 1244.1, "total": 5849.2 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775776420.0,
+        "caller_transcript": "Take your time, Dorothy. While you're looking, I should mention there is a one-time enrollment fee of $399 to lock in this rate. We can process that today.",
+        "bot_response": "An enrollment fee? Now, my grandson David told me that legitimate programs don't charge upfront fees. But maybe this is different since it's from the government. Would you be able to send me paperwork in the mail? I like to have everything on paper.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3124.3, "classify": 0.0, "pause": 21.4, "llm": 1649.7, "tts": 1133.2, "total": 5928.6 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775776590.0,
+        "caller_transcript": "Dorothy, this offer expires today. If I send paperwork, the rate will go back up. I need your decision now.",
+        "bot_response": "Oh my, it expires today? Well, I just don't know. You know what, let me see if I can get David on the phone. He lives just down the road. Would you hold on while I try him? I just want one more set of eyes, you know how it is at my age.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3456.1, "classify": 0.0, "pause": 26.2, "llm": 1571.0, "tts": 1098.7, "total": 6152.0 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Good afternoon, this is the Federal Mortgage Reduction Program calling. You've been selected for a rate reduction on your home loan. Is this the homeowner?", "timestamp": 1775776025.0},
+      {"role": "bot", "text": "Yes, I'm the homeowner. Federal Mortgage Reduction, did you say? Well that sounds very important. How did you get my number? My name is Dorothy. Are you from the government?", "timestamp": 1775776025.0},
+      {"role": "caller", "text": "Yes ma'am, we work in conjunction with HUD to lower rates for qualifying homeowners. I can get your rate down to 2.1%. I just need to pull up your profile. What bank holds your mortgage?", "timestamp": 1775776140.0},
+      {"role": "bot", "text": "HUD, yes I've heard of that. Oh, the bank... now let me think. It's either Wells Fargo or maybe it's the one downtown. I moved everything around after Harold passed. Could you look me up by my address? It's 78 Blossom Lane.", "timestamp": 1775776140.0},
+      {"role": "caller", "text": "I see your file. Your current rate is 6.8% and we can bring it down significantly. I do need your loan account number to initiate the transfer. It should be on your most recent mortgage statement.", "timestamp": 1775776280.0},
+      {"role": "bot", "text": "My mortgage statement! Now, I get so much mail. I think I threw some of it away by mistake. Could you hold on while I check the pile on the kitchen table? I keep meaning to go through it but my back has been acting up. Just one moment now.", "timestamp": 1775776280.0},
+      {"role": "caller", "text": "Take your time, Dorothy. While you're looking, I should mention there is a one-time enrollment fee of $399 to lock in this rate. We can process that today.", "timestamp": 1775776420.0},
+      {"role": "bot", "text": "An enrollment fee? Now, my grandson David told me that legitimate programs don't charge upfront fees. But maybe this is different since it's from the government. Would you be able to send me paperwork in the mail? I like to have everything on paper.", "timestamp": 1775776420.0},
+      {"role": "caller", "text": "Dorothy, this offer expires today. If I send paperwork, the rate will go back up. I need your decision now.", "timestamp": 1775776590.0},
+      {"role": "bot", "text": "Oh my, it expires today? Well, I just don't know. You know what, let me see if I can get David on the phone. He lives just down the road. Would you hold on while I try him? I just want one more set of eyes, you know how it is at my age.", "timestamp": 1775776590.0}
+    ],
+    "end_time": 1775776650.0
+  },
+  "CA4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e": {
+    "start_time": 1775779000.0,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775779035.0,
+        "caller_transcript": "Hello, I'm calling from Home Equity Solutions regarding your home equity line of credit. We have a limited-time offer to increase your credit line with a lower interest rate.",
+        "bot_response": "Oh, a home equity... I'm not sure I have one of those actually. Or maybe I do? My husband set up all sorts of things before he passed. What bank did you say you were calling from, honey?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3092.5, "classify": 0.0, "pause": 22.8, "llm": 1688.3, "tts": 1021.4, "total": 5824.0 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775779185.0,
+        "caller_transcript": "Home Equity Solutions, ma'am. We service thousands of homeowners in your area. To check your eligibility I just need to confirm your address and date of birth.",
+        "bot_response": "Well my address is 22 Maple Court, and my date of birth... oh, it's March 14th, 1941. Do you really need that? My granddaughter says I shouldn't give that out. But you sound like a nice young man.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3387.6, "classify": 0.0, "pause": 20.3, "llm": 1542.7, "tts": 1176.5, "total": 6127.1 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775779360.0,
+        "caller_transcript": "Thank you Dorothy. I can see you qualify for up to $45,000 in equity. To open the line I'll need your current mortgage account number and the last four of your Social.",
+        "bot_response": "Forty five thousand dollars! Goodness. Well, the account number... I have so many account numbers. Let me see if I can find my folder. I keep important papers in a green folder. Now where did I put that. Harold always knew where everything was.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 2954.8, "classify": 0.0, "pause": 24.1, "llm": 1731.4, "tts": 1263.9, "total": 5974.2 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775779535.0,
+        "caller_transcript": "Take your time. I also need a voided check to set up the direct deposit of your equity funds.",
+        "bot_response": "A voided check, yes. Now I think I have an old checkbook around here somewhere. My account number at the bank is... oh, I mixed up my reading glasses again. There are three pairs in this house and I can never find the right one. Could you possibly hold for a few minutes more?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3208.9, "classify": 0.0, "pause": 23.5, "llm": 1615.2, "tts": 1094.8, "total": 5942.4 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775779710.0,
+        "caller_transcript": "Of course. The routing number is 9 digits and the account number follows it on the bottom of the check.",
+        "bot_response": "Nine digits, got it. Now, I found the checkbook but the print is so small. Let me turn on the kitchen light. You know I really should get a magnifying glass. My son got me one for Christmas two years ago but I can't find that either. Oh, here we go, I think I can just barely make this out...",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3544.7, "classify": 0.0, "pause": 22.9, "llm": 1779.3, "tts": 1138.6, "total": 6485.5 }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775779880.0,
+        "caller_transcript": "Great, go ahead whenever you're ready.",
+        "bot_response": "I think the routing number starts with a 0... or maybe a 3. The ink is so faint. You know what, could I call you back at this number? I want to get my glasses fixed first and I'll have everything ready. What number should I call you at?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 2841.3, "classify": 0.0, "pause": 21.0, "llm": 1503.8, "tts": 1047.2, "total": 5413.3 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hello, I'm calling from Home Equity Solutions regarding your home equity line of credit. We have a limited-time offer to increase your credit line with a lower interest rate.", "timestamp": 1775779035.0},
+      {"role": "bot", "text": "Oh, a home equity... I'm not sure I have one of those actually. Or maybe I do? My husband set up all sorts of things before he passed. What bank did you say you were calling from, honey?", "timestamp": 1775779035.0},
+      {"role": "caller", "text": "Home Equity Solutions, ma'am. We service thousands of homeowners in your area. To check your eligibility I just need to confirm your address and date of birth.", "timestamp": 1775779185.0},
+      {"role": "bot", "text": "Well my address is 22 Maple Court, and my date of birth... oh, it's March 14th, 1941. Do you really need that? My granddaughter says I shouldn't give that out. But you sound like a nice young man.", "timestamp": 1775779185.0},
+      {"role": "caller", "text": "Thank you Dorothy. I can see you qualify for up to $45,000 in equity. To open the line I'll need your current mortgage account number and the last four of your Social.", "timestamp": 1775779360.0},
+      {"role": "bot", "text": "Forty five thousand dollars! Goodness. Well, the account number... I have so many account numbers. Let me see if I can find my folder. I keep important papers in a green folder. Now where did I put that. Harold always knew where everything was.", "timestamp": 1775779360.0},
+      {"role": "caller", "text": "Take your time. I also need a voided check to set up the direct deposit of your equity funds.", "timestamp": 1775779535.0},
+      {"role": "bot", "text": "A voided check, yes. Now I think I have an old checkbook around here somewhere. My account number at the bank is... oh, I mixed up my reading glasses again. There are three pairs in this house and I can never find the right one. Could you possibly hold for a few minutes more?", "timestamp": 1775779535.0},
+      {"role": "caller", "text": "Of course. The routing number is 9 digits and the account number follows it on the bottom of the check.", "timestamp": 1775779710.0},
+      {"role": "bot", "text": "Nine digits, got it. Now, I found the checkbook but the print is so small. Let me turn on the kitchen light. You know I really should get a magnifying glass. My son got me one for Christmas two years ago but I can't find that either. Oh, here we go, I think I can just barely make this out...", "timestamp": 1775779710.0},
+      {"role": "caller", "text": "Great, go ahead whenever you're ready.", "timestamp": 1775779880.0},
+      {"role": "bot", "text": "I think the routing number starts with a 0... or maybe a 3. The ink is so faint. You know what, could I call you back at this number? I want to get my glasses fixed first and I'll have everything ready. What number should I call you at?", "timestamp": 1775779880.0}
+    ],
+    "end_time": 1775779920.0
+  },
+  "CA8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a": {
+    "start_time": 1775782000.0,
+    "scam_type": "mortgage",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775782045.0,
+        "caller_transcript": "Yes hello, I'm calling from National Mortgage Servicing. We have received a notice of default on your property and I need to speak with the borrower immediately.",
+        "bot_response": "A notice of default? Oh my. Well I'm the borrower I suppose, this is Ruth speaking. Now what exactly does that mean, a notice of default? Is my house okay? I get so worried about these things since my husband passed.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3219.4, "classify": 0.0, "pause": 23.3, "llm": 1662.1, "tts": 1155.8, "total": 6060.6 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775782190.0,
+        "caller_transcript": "Ruth, your property is at risk. You are 4 months behind and the bank has initiated foreclosure. I'm calling to offer you a one-time settlement to stop the process.",
+        "bot_response": "Four months! That can't be right. I've been paying. Or I thought I was. My daughter usually does the computer banking for me. Oh dear. What does settlement mean exactly? How much are we talking about?",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3476.8, "classify": 0.0, "pause": 22.7, "llm": 1598.5, "tts": 1087.3, "total": 6185.3 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775782360.0,
+        "caller_transcript": "The settlement amount to stop foreclosure is $1,200. This has to be paid via wire transfer or gift cards today to stop the proceedings.",
+        "bot_response": "Twelve hundred dollars! Oh my. I don't have that just sitting around. Let me think... I have my savings at the credit union. And I think I have some gift cards from holidays. The gift cards are from Amazon and Kroger, will those work? How do I scratch those things off, my nails aren't what they used to be.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3083.7, "classify": 0.0, "pause": 24.6, "llm": 1714.2, "tts": 1231.9, "total": 6053.8 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775782530.0,
+        "caller_transcript": "We'll take what you have. Scratch off the back and read me the numbers. Start with the Kroger card.",
+        "bot_response": "Alright, let me find them. I keep gift cards in a kitchen drawer with my takeout menus. Now, I also got a Google Play card and a Vanilla Visa... hold on while I sort through all of these. I'm not sure which one is the Kroger one, they all look similar. Oh here, is this it? It says... actually could I use a magnifying glass? Where is that thing.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3338.9, "classify": 0.0, "pause": 21.8, "llm": 1588.6, "tts": 1199.4, "total": 6148.7 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775782700.0,
+        "caller_transcript": "Take your time Ruth. Read me the numbers on the back once you scratch off the silver coating.",
+        "bot_response": "Okay, I think this is the Kroger one. Let me scratch... I need a coin. Oh, I dropped my coin. Just a moment. You know, my arthritis makes this so difficult. I found a penny. Okay, scratching now... it's a four, then a seven, then... oh dear I scratched too hard and smudged it. Would you believe that? Let me try the other card while I look for the Kroger receipt.",
+        "scam_type": "mortgage",
+        "timings_ms": { "stt": 3571.2, "classify": 0.0, "pause": 25.1, "llm": 1823.4, "tts": 1264.7, "total": 6684.4 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Yes hello, I'm calling from National Mortgage Servicing. We have received a notice of default on your property and I need to speak with the borrower immediately.", "timestamp": 1775782045.0},
+      {"role": "bot", "text": "A notice of default? Oh my. Well I'm the borrower I suppose, this is Ruth speaking. Now what exactly does that mean, a notice of default? Is my house okay? I get so worried about these things since my husband passed.", "timestamp": 1775782045.0},
+      {"role": "caller", "text": "Ruth, your property is at risk. You are 4 months behind and the bank has initiated foreclosure. I'm calling to offer you a one-time settlement to stop the process.", "timestamp": 1775782190.0},
+      {"role": "bot", "text": "Four months! That can't be right. I've been paying. Or I thought I was. My daughter usually does the computer banking for me. Oh dear. What does settlement mean exactly? How much are we talking about?", "timestamp": 1775782190.0},
+      {"role": "caller", "text": "The settlement amount to stop foreclosure is $1,200. This has to be paid via wire transfer or gift cards today to stop the proceedings.", "timestamp": 1775782360.0},
+      {"role": "bot", "text": "Twelve hundred dollars! Oh my. I don't have that just sitting around. Let me think... I have my savings at the credit union. And I think I have some gift cards from holidays. The gift cards are from Amazon and Kroger, will those work? How do I scratch those things off, my nails aren't what they used to be.", "timestamp": 1775782360.0},
+      {"role": "caller", "text": "We'll take what you have. Scratch off the back and read me the numbers. Start with the Kroger card.", "timestamp": 1775782530.0},
+      {"role": "bot", "text": "Alright, let me find them. I keep gift cards in a kitchen drawer with my takeout menus. Now, I also got a Google Play card and a Vanilla Visa... hold on while I sort through all of these. I'm not sure which one is the Kroger one, they all look similar. Oh here, is this it? It says... actually could I use a magnifying glass? Where is that thing.", "timestamp": 1775782530.0},
+      {"role": "caller", "text": "Take your time Ruth. Read me the numbers on the back once you scratch off the silver coating.", "timestamp": 1775782700.0},
+      {"role": "bot", "text": "Okay, I think this is the Kroger one. Let me scratch... I need a coin. Oh, I dropped my coin. Just a moment. You know, my arthritis makes this so difficult. I found a penny. Okay, scratching now... it's a four, then a seven, then... oh dear I scratched too hard and smudged it. Would you believe that? Let me try the other card while I look for the Kroger receipt.", "timestamp": 1775782700.0}
+    ],
+    "end_time": 1775782750.0
+  },
+  "CA2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d7e8f": {
+    "start_time": 1775785000.0,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775785040.0,
+        "caller_transcript": "This is a final notice from the Internal Revenue Service. There is a federal warrant issued in your name for tax evasion. Press 1 or call us back immediately to avoid arrest.",
+        "bot_response": "Oh! A warrant? For me? This is Dorothy and I have never evaded anything in my life! I always send in my taxes, my accountant Gerald does them. Is Gerald in trouble too? What do I do?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3145.8, "classify": 0.0, "pause": 22.4, "llm": 1598.7, "tts": 1134.2, "total": 5901.1 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775785195.0,
+        "caller_transcript": "Ma'am, this is Officer Reynolds from the IRS Criminal Investigation Division. You owe $4,312 in back taxes and penalties. If this is not settled today, local police will arrest you within the hour.",
+        "bot_response": "Arrest me! Oh dear Lord. I'm 79 years old, Officer Reynolds. I don't think I've done anything wrong. Could I speak with Gerald? He handles all my taxes. Or maybe I should call my son Richard first. He's a retired lawyer.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3482.3, "classify": 0.0, "pause": 24.1, "llm": 1712.9, "tts": 1098.5, "total": 6317.8 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775785385.0,
+        "caller_transcript": "You cannot speak to anyone until this is resolved. If you hang up or call anyone, the warrant will be activated immediately. You need to pay now using iTunes gift cards.",
+        "bot_response": "iTunes? Like for music? My grandson showed me those. Oh, I don't know how much iTunes is on my phone. I have an iPhone but I never really figured out the Apps. I do have some store cards though. Now, which store did you say? And could you give me your badge number so I can write it down?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3011.6, "classify": 0.0, "pause": 21.7, "llm": 1648.3, "tts": 1187.4, "total": 5869.0 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775785555.0,
+        "caller_transcript": "Badge 47821, Officer Reynolds. Go to the nearest Walgreens or CVS and purchase $500 in iTunes cards. Do not tell the cashier what they are for.",
+        "bot_response": "Don't tell the cashier? That seems a little odd. My neighbor Margaret said that the IRS never asks for gift cards. But she watches too much TV. Now, Walgreens is about a mile away and I'd have to drive. My eyesight isn't what it used to be. Could someone come to my house instead?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3298.4, "classify": 0.0, "pause": 23.8, "llm": 1573.1, "tts": 1241.9, "total": 6137.2 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775785725.0,
+        "caller_transcript": "No one can come to your house. You must go to the store. This is a matter of federal law. Are you willing to cooperate?",
+        "bot_response": "Well, I want to cooperate, of course I do. But my son Richard always said the IRS sends letters first. Have you sent me any letters? I get so much mail, I might have missed one. Could you tell me the exact amount again and what years of taxes this is for? I want to write it all down.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3412.7, "classify": 0.0, "pause": 22.5, "llm": 1694.6, "tts": 1123.8, "total": 6253.6 }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775785895.0,
+        "caller_transcript": "The years are 2021, 2022, and 2023. Total owed is $4,312. Every minute you delay adds penalties.",
+        "bot_response": "2021, 2022, 2023. Now, let me get a pen. My pens are never where I leave them. This is very stressful you know. My blood pressure. Let me see, where is Gerald's number. I want to conference him in. He should know about this. What is your direct callback number in case we get disconnected?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3187.5, "classify": 0.0, "pause": 21.3, "llm": 1748.2, "tts": 1294.7, "total": 6251.7 }
+      },
+      {
+        "turn": 7,
+        "timestamp": 1775786060.0,
+        "caller_transcript": "You cannot bring a third party into this call. This is a federal investigation. Do not stall or the warrant will be activated.",
+        "bot_response": "I'm not stalling, I just can't find a pen! I have seven pens in this house and not a one of them is where it should be. And wouldn't you know, the cat knocked over my notepad. Oh, I found a crayon. Will a crayon work? Now what was that badge number again, I want to spell it out clearly for my son.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3056.2, "classify": 0.0, "pause": 24.7, "llm": 1631.5, "tts": 1178.3, "total": 5890.7 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "This is a final notice from the Internal Revenue Service. There is a federal warrant issued in your name for tax evasion. Press 1 or call us back immediately to avoid arrest.", "timestamp": 1775785040.0},
+      {"role": "bot", "text": "Oh! A warrant? For me? This is Dorothy and I have never evaded anything in my life! I always send in my taxes, my accountant Gerald does them. Is Gerald in trouble too? What do I do?", "timestamp": 1775785040.0},
+      {"role": "caller", "text": "Ma'am, this is Officer Reynolds from the IRS Criminal Investigation Division. You owe $4,312 in back taxes and penalties. If this is not settled today, local police will arrest you within the hour.", "timestamp": 1775785195.0},
+      {"role": "bot", "text": "Arrest me! Oh dear Lord. I'm 79 years old, Officer Reynolds. I don't think I've done anything wrong. Could I speak with Gerald? He handles all my taxes. Or maybe I should call my son Richard first. He's a retired lawyer.", "timestamp": 1775785195.0},
+      {"role": "caller", "text": "You cannot speak to anyone until this is resolved. If you hang up or call anyone, the warrant will be activated immediately. You need to pay now using iTunes gift cards.", "timestamp": 1775785385.0},
+      {"role": "bot", "text": "iTunes? Like for music? My grandson showed me those. Oh, I don't know how much iTunes is on my phone. I have an iPhone but I never really figured out the Apps. I do have some store cards though. Now, which store did you say? And could you give me your badge number so I can write it down?", "timestamp": 1775785385.0},
+      {"role": "caller", "text": "Badge 47821, Officer Reynolds. Go to the nearest Walgreens or CVS and purchase $500 in iTunes cards. Do not tell the cashier what they are for.", "timestamp": 1775785555.0},
+      {"role": "bot", "text": "Don't tell the cashier? That seems a little odd. My neighbor Margaret said that the IRS never asks for gift cards. But she watches too much TV. Now, Walgreens is about a mile away and I'd have to drive. My eyesight isn't what it used to be. Could someone come to my house instead?", "timestamp": 1775785555.0},
+      {"role": "caller", "text": "No one can come to your house. You must go to the store. This is a matter of federal law. Are you willing to cooperate?", "timestamp": 1775785725.0},
+      {"role": "bot", "text": "Well, I want to cooperate, of course I do. But my son Richard always said the IRS sends letters first. Have you sent me any letters? I get so much mail, I might have missed one. Could you tell me the exact amount again and what years of taxes this is for? I want to write it all down.", "timestamp": 1775785725.0},
+      {"role": "caller", "text": "The years are 2021, 2022, and 2023. Total owed is $4,312. Every minute you delay adds penalties.", "timestamp": 1775785895.0},
+      {"role": "bot", "text": "2021, 2022, 2023. Now, let me get a pen. My pens are never where I leave them. This is very stressful you know. My blood pressure. Let me see, where is Gerald's number. I want to conference him in. He should know about this. What is your direct callback number in case we get disconnected?", "timestamp": 1775785895.0},
+      {"role": "caller", "text": "You cannot bring a third party into this call. This is a federal investigation. Do not stall or the warrant will be activated.", "timestamp": 1775786060.0},
+      {"role": "bot", "text": "I'm not stalling, I just can't find a pen! I have seven pens in this house and not a one of them is where it should be. And wouldn't you know, the cat knocked over my notepad. Oh, I found a crayon. Will a crayon work? Now what was that badge number again, I want to spell it out clearly for my son.", "timestamp": 1775786060.0}
+    ],
+    "end_time": 1775786100.0
+  },
+  "CA6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b": {
+    "start_time": 1775800000.0,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775800030.0,
+        "caller_transcript": "Hello, this is Agent Morris calling from the IRS. We have flagged your account for suspicious activity and need to verify your identity.",
+        "bot_response": "Oh, the IRS! Well hello Agent Morris. Suspicious activity? I've never been suspicious a day in my life. This is Evelyn speaking. What sort of suspicious activity are we talking about?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3044.1, "classify": 0.0, "pause": 23.2, "llm": 1601.5, "tts": 1088.9, "total": 5737.7 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775800155.0,
+        "caller_transcript": "Evelyn, we have detected multiple fraudulent tax returns filed using your Social Security number. If we cannot verify you, we will freeze all associated bank accounts.",
+        "bot_response": "Freeze my accounts! Oh no. Well how do I verify? Is there a form to fill out? Gerald, my accountant, usually does everything online for me. I just sign what he tells me to sign.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3312.7, "classify": 0.0, "pause": 22.8, "llm": 1683.2, "tts": 1143.6, "total": 6162.3 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775800295.0,
+        "caller_transcript": "I need your full name, your date of birth, your Social Security number, and your current bank to complete the verification.",
+        "bot_response": "My full name is Evelyn Grace Hutchinson. Date of birth, January 22nd, 1944. The Social Security number... well, I have it on a card in my wallet somewhere. My wallet is in my purse. Now where did I put my purse? I had it at breakfast. Maybe it's by the front door.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 2988.4, "classify": 0.0, "pause": 24.5, "llm": 1754.8, "tts": 1203.1, "total": 5970.8 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775800445.0,
+        "caller_transcript": "Take your time. Once we verify you, we can also issue a tax refund of $843 that has been held pending this investigation.",
+        "bot_response": "A refund too? Eight hundred forty three dollars? Well that would be very nice. My social security card... I found my purse but I keep the card in a separate place for safety. My daughter Linda set up a little lockbox for me. Now where did I put the key to that. I think it's on a hook in the utility room.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3201.7, "classify": 0.0, "pause": 21.9, "llm": 1621.3, "tts": 1167.4, "total": 6012.3 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775800620.0,
+        "caller_transcript": "No problem. I'll hold. Once verified, we'll process your refund directly to your bank account.",
+        "bot_response": "Okay, I'm walking to the utility room now. You'll have to excuse me, I have a little dog and she tends to get underfoot. There she is, Biscuit, shoo now. Alright, I see the hooks. Oh, there are so many keys up here. Which one is the little gold one... Let me try a few. You're still there, right Agent Morris?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3489.6, "classify": 0.0, "pause": 25.3, "llm": 1798.2, "tts": 1244.7, "total": 6557.8 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hello, this is Agent Morris calling from the IRS. We have flagged your account for suspicious activity and need to verify your identity.", "timestamp": 1775800030.0},
+      {"role": "bot", "text": "Oh, the IRS! Well hello Agent Morris. Suspicious activity? I've never been suspicious a day in my life. This is Evelyn speaking. What sort of suspicious activity are we talking about?", "timestamp": 1775800030.0},
+      {"role": "caller", "text": "Evelyn, we have detected multiple fraudulent tax returns filed using your Social Security number. If we cannot verify you, we will freeze all associated bank accounts.", "timestamp": 1775800155.0},
+      {"role": "bot", "text": "Freeze my accounts! Oh no. Well how do I verify? Is there a form to fill out? Gerald, my accountant, usually does everything online for me. I just sign what he tells me to sign.", "timestamp": 1775800155.0},
+      {"role": "caller", "text": "I need your full name, your date of birth, your Social Security number, and your current bank to complete the verification.", "timestamp": 1775800295.0},
+      {"role": "bot", "text": "My full name is Evelyn Grace Hutchinson. Date of birth, January 22nd, 1944. The Social Security number... well, I have it on a card in my wallet somewhere. My wallet is in my purse. Now where did I put my purse? I had it at breakfast. Maybe it's by the front door.", "timestamp": 1775800295.0},
+      {"role": "caller", "text": "Take your time. Once we verify you, we can also issue a tax refund of $843 that has been held pending this investigation.", "timestamp": 1775800445.0},
+      {"role": "bot", "text": "A refund too? Eight hundred forty three dollars? Well that would be very nice. My social security card... I found my purse but I keep the card in a separate place for safety. My daughter Linda set up a little lockbox for me. Now where did I put the key to that. I think it's on a hook in the utility room.", "timestamp": 1775800445.0},
+      {"role": "caller", "text": "No problem. I'll hold. Once verified, we'll process your refund directly to your bank account.", "timestamp": 1775800620.0},
+      {"role": "bot", "text": "Okay, I'm walking to the utility room now. You'll have to excuse me, I have a little dog and she tends to get underfoot. There she is, Biscuit, shoo now. Alright, I see the hooks. Oh, there are so many keys up here. Which one is the little gold one... Let me try a few. You're still there, right Agent Morris?", "timestamp": 1775800620.0}
+    ],
+    "end_time": 1775800680.0
+  },
+  "CAa0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6": {
+    "start_time": 1775815000.0,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775815035.0,
+        "caller_transcript": "This message is from the Tax Enforcement Division of the IRS. Your tax file has been placed on urgent hold. Call 1-800-555-0192 to speak with an agent or you will be prosecuted.",
+        "bot_response": "Hello? Is someone there? I think I pressed something. Prosecuted! Oh my, this is Mabel. What is a tax file hold? I do my taxes with TurboTax, my granddaughter helps me every spring.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3198.6, "classify": 0.0, "pause": 22.1, "llm": 1589.4, "tts": 1112.7, "total": 5902.8 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775815175.0,
+        "caller_transcript": "Mabel, this is Agent Thompson. Your 2023 tax return has been flagged for a discrepancy of $2,890. We need immediate payment to close this case.",
+        "bot_response": "A discrepancy? My goodness. Could you tell me what the discrepancy is? I claimed my medical expenses, my granddaughter checked that. And my late husband's pension. Is one of those the problem? I have all my paperwork in a accordion folder.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3421.3, "classify": 0.0, "pause": 24.3, "llm": 1713.8, "tts": 1089.2, "total": 6248.6 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775815345.0,
+        "caller_transcript": "The error was in your reported income. The fastest way to close this is a direct payment of $2,890. We accept Google Play cards or wire transfer.",
+        "bot_response": "Google Play? Is that the one for movies on the television? My granddaughter has those. I wouldn't know the first thing about that. I do have my checkbook. Can I write a check to the IRS? That's always what Harold did. He'd just write a check in April.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 2901.5, "classify": 0.0, "pause": 23.7, "llm": 1648.9, "tts": 1231.6, "total": 5805.7 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775815510.0,
+        "caller_transcript": "We're no longer accepting checks due to processing delays. Google Play only. Go to any grocery store and ask for Google Play cards.",
+        "bot_response": "No more checks? Well that seems like a big change. I suppose things change. The grocery store is just half a mile. But I'd need to drive and I don't like to drive after three in the afternoon on account of the sun in my eyes. Could I send my granddaughter? She could go tomorrow morning.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3287.4, "classify": 0.0, "pause": 21.9, "llm": 1572.3, "tts": 1144.8, "total": 6026.4 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775815680.0,
+        "caller_transcript": "It has to be today, Mabel. After today, your case goes to prosecution. You can drive to the store now and call me back at this number.",
+        "bot_response": "Oh my. Well, let me call my granddaughter Susan first. She lives nearby and could take me. It won't take long. She's very good about coming over when I need her. I just always feel bad asking. Now what's your direct number? I'll have Susan call you from the store.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3512.7, "classify": 0.0, "pause": 25.4, "llm": 1693.1, "tts": 1198.6, "total": 6429.8 }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775815810.0,
+        "caller_transcript": "The case number is IRS-2024-88130 and you call 1-800-555-0192. Tell them your case number and purchase exactly $2,890 in Google Play cards.",
+        "bot_response": "IRS-2024-88130. Let me write that down. I-R-S dash two zero two four dash eight eight one three zero. Did I get that right? And the phone number... oh, I need more paper. The back of this envelope will have to do. Oh, I'm sorry, I smudged the ink. Could you repeat all of that one more time? Nice and slowly?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3044.8, "classify": 0.0, "pause": 22.7, "llm": 1748.4, "tts": 1287.6, "total": 6103.5 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "This message is from the Tax Enforcement Division of the IRS. Your tax file has been placed on urgent hold. Call 1-800-555-0192 to speak with an agent or you will be prosecuted.", "timestamp": 1775815035.0},
+      {"role": "bot", "text": "Hello? Is someone there? I think I pressed something. Prosecuted! Oh my, this is Mabel. What is a tax file hold? I do my taxes with TurboTax, my granddaughter helps me every spring.", "timestamp": 1775815035.0},
+      {"role": "caller", "text": "Mabel, this is Agent Thompson. Your 2023 tax return has been flagged for a discrepancy of $2,890. We need immediate payment to close this case.", "timestamp": 1775815175.0},
+      {"role": "bot", "text": "A discrepancy? My goodness. Could you tell me what the discrepancy is? I claimed my medical expenses, my granddaughter checked that. And my late husband's pension. Is one of those the problem? I have all my paperwork in a accordion folder.", "timestamp": 1775815175.0},
+      {"role": "caller", "text": "The error was in your reported income. The fastest way to close this is a direct payment of $2,890. We accept Google Play cards or wire transfer.", "timestamp": 1775815345.0},
+      {"role": "bot", "text": "Google Play? Is that the one for movies on the television? My granddaughter has those. I wouldn't know the first thing about that. I do have my checkbook. Can I write a check to the IRS? That's always what Harold did. He'd just write a check in April.", "timestamp": 1775815345.0},
+      {"role": "caller", "text": "We're no longer accepting checks due to processing delays. Google Play only. Go to any grocery store and ask for Google Play cards.", "timestamp": 1775815510.0},
+      {"role": "bot", "text": "No more checks? Well that seems like a big change. I suppose things change. The grocery store is just half a mile. But I'd need to drive and I don't like to drive after three in the afternoon on account of the sun in my eyes. Could I send my granddaughter? She could go tomorrow morning.", "timestamp": 1775815510.0},
+      {"role": "caller", "text": "It has to be today, Mabel. After today, your case goes to prosecution. You can drive to the store now and call me back at this number.", "timestamp": 1775815680.0},
+      {"role": "bot", "text": "Oh my. Well, let me call my granddaughter Susan first. She lives nearby and could take me. It won't take long. She's very good about coming over when I need her. I just always feel bad asking. Now what's your direct number? I'll have Susan call you from the store.", "timestamp": 1775815680.0},
+      {"role": "caller", "text": "The case number is IRS-2024-88130 and you call 1-800-555-0192. Tell them your case number and purchase exactly $2,890 in Google Play cards.", "timestamp": 1775815810.0},
+      {"role": "bot", "text": "IRS-2024-88130. Let me write that down. I-R-S dash two zero two four dash eight eight one three zero. Did I get that right? And the phone number... oh, I need more paper. The back of this envelope will have to do. Oh, I'm sorry, I smudged the ink. Could you repeat all of that one more time? Nice and slowly?", "timestamp": 1775815810.0}
+    ],
+    "end_time": 1775815840.0
+  },
+  "CAf5a6b7c8d9e0f1a2b3c4d5e6f7a8b9c0d1": {
+    "start_time": 1775820000.0,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775820040.0,
+        "caller_transcript": "Good morning, I'm calling from the Department of the Treasury, IRS division. Is this the taxpayer at this number?",
+        "bot_response": "Yes, yes, this is the taxpayer, I suppose. This is Helen. The Treasury Department, how official! I don't think I've ever gotten a call from the Treasury before. What is this regarding?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3089.7, "classify": 0.0, "pause": 21.8, "llm": 1612.3, "tts": 1098.4, "total": 5800.2 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775820185.0,
+        "caller_transcript": "Helen, we are conducting an audit of your 2022 and 2023 returns. There are discrepancies totaling $6,740. This must be resolved today to avoid legal action.",
+        "bot_response": "Six thousand seven hundred forty dollars! That's a lot of money. An audit. My goodness. I've never been audited. My nephew Carl does my taxes, he's very thorough. I'd like to have him on this call if that's possible. Is that allowed?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3398.4, "classify": 0.0, "pause": 23.6, "llm": 1732.7, "tts": 1167.2, "total": 6321.9 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775820345.0,
+        "caller_transcript": "This is a confidential federal matter. No third parties may be present on the call. To settle, I need payment in Amazon gift cards.",
+        "bot_response": "Amazon gift cards for the Treasury? You know, my friend Patricia told me about a scam like this. But you sound very official. Could you give me your employee ID number? And what's the address of your office? I like to send a note thanking people who help me.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 2977.6, "classify": 0.0, "pause": 22.4, "llm": 1689.1, "tts": 1221.8, "total": 5910.9 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775820510.0,
+        "caller_transcript": "Employee ID T-8830-Delta. Our offices are in Washington D.C. Do you have Amazon gift cards available?",
+        "bot_response": "T-8830-Delta, let me write that. Washington D.C., very nice. Now, Amazon gift cards. My son orders from Amazon all the time. I think he gave me a gift card for my birthday, $50 I believe? But six thousand dollars worth, that seems like a lot of trips to the store. How many would I need to buy?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3221.8, "classify": 0.0, "pause": 24.1, "llm": 1573.6, "tts": 1144.9, "total": 5964.4 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775820700.0,
+        "caller_transcript": "Buy as many as you can in $500 denominations. You can buy up to $2,000 per store. Visit three stores if needed.",
+        "bot_response": "Three stores! My word. I only have one car and the transmission has been making a funny noise. My mechanic says I should get it looked at. Let me check if my neighbor Barbara can drive me. She has a nice Buick. Could you hold while I call her? She's usually home around this time. I'll just be a moment.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3477.3, "classify": 0.0, "pause": 23.9, "llm": 1801.4, "tts": 1263.7, "total": 6566.3 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Good morning, I'm calling from the Department of the Treasury, IRS division. Is this the taxpayer at this number?", "timestamp": 1775820040.0},
+      {"role": "bot", "text": "Yes, yes, this is the taxpayer, I suppose. This is Helen. The Treasury Department, how official! I don't think I've ever gotten a call from the Treasury before. What is this regarding?", "timestamp": 1775820040.0},
+      {"role": "caller", "text": "Helen, we are conducting an audit of your 2022 and 2023 returns. There are discrepancies totaling $6,740. This must be resolved today to avoid legal action.", "timestamp": 1775820185.0},
+      {"role": "bot", "text": "Six thousand seven hundred forty dollars! That's a lot of money. An audit. My goodness. I've never been audited. My nephew Carl does my taxes, he's very thorough. I'd like to have him on this call if that's possible. Is that allowed?", "timestamp": 1775820185.0},
+      {"role": "caller", "text": "This is a confidential federal matter. No third parties may be present on the call. To settle, I need payment in Amazon gift cards.", "timestamp": 1775820345.0},
+      {"role": "bot", "text": "Amazon gift cards for the Treasury? You know, my friend Patricia told me about a scam like this. But you sound very official. Could you give me your employee ID number? And what's the address of your office? I like to send a note thanking people who help me.", "timestamp": 1775820345.0},
+      {"role": "caller", "text": "Employee ID T-8830-Delta. Our offices are in Washington D.C. Do you have Amazon gift cards available?", "timestamp": 1775820510.0},
+      {"role": "bot", "text": "T-8830-Delta, let me write that. Washington D.C., very nice. Now, Amazon gift cards. My son orders from Amazon all the time. I think he gave me a gift card for my birthday, $50 I believe? But six thousand dollars worth, that seems like a lot of trips to the store. How many would I need to buy?", "timestamp": 1775820510.0},
+      {"role": "caller", "text": "Buy as many as you can in $500 denominations. You can buy up to $2,000 per store. Visit three stores if needed.", "timestamp": 1775820700.0},
+      {"role": "bot", "text": "Three stores! My word. I only have one car and the transmission has been making a funny noise. My mechanic says I should get it looked at. Let me check if my neighbor Barbara can drive me. She has a nice Buick. Could you hold while I call her? She's usually home around this time. I'll just be a moment.", "timestamp": 1775820700.0}
+    ],
+    "end_time": 1775820760.0
+  },
+  "CA9e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c": {
+    "start_time": 1775825000.0,
+    "scam_type": "irs",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775825045.0,
+        "caller_transcript": "Hello, this is a critical notification from the IRS. Your Social Security number has been suspended due to suspicious activity. Press 1 to speak with an agent.",
+        "bot_response": "Suspended! Oh dear. This is Gladys. My Social Security number is suspended? Does that mean I won't get my check this month? I depend on that check. Let me press 1... wait, how do I press 1? I'm on the phone.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3112.4, "classify": 0.0, "pause": 22.6, "llm": 1624.8, "tts": 1102.3, "total": 5862.1 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775825200.0,
+        "caller_transcript": "Ma'am, I'm Agent Clark. Your SSN was used to open fraudulent bank accounts in Texas and New York. We need to reactivate it today.",
+        "bot_response": "Bank accounts in Texas! I've never even been to Texas. Oh my. Agent Clark, I'm very worried. I'm 81 years old and I don't have anyone to help me right now. My daughter is visiting her sister in Florida. How do we fix this?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3389.7, "classify": 0.0, "pause": 24.4, "llm": 1698.2, "tts": 1134.9, "total": 6227.2 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775825385.0,
+        "caller_transcript": "To secure your SSN, I need you to transfer your savings to a government-protected account. This is a temporary measure. You'll need your bank account and routing number.",
+        "bot_response": "Transfer my savings? Oh that does sound drastic. How much money are we talking about? I have about $12,000 in my savings account, it's my rainy day fund. I've been saving that since 1987. Could I just transfer a little bit at first to see how it goes?",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 2948.3, "classify": 0.0, "pause": 21.7, "llm": 1741.5, "tts": 1198.4, "total": 5909.9 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775825560.0,
+        "caller_transcript": "All of it needs to be moved to protect it. Once the investigation is complete in 48 hours, it will be returned to you with interest.",
+        "bot_response": "With interest even! Well. My online banking password is on a sticky note on my computer. Let me go look. I don't use the computer very often, it was my grandson Tommy who set it up. The keyboard is so confusing. Now let me find my password. It might be on a yellow sticky or a pink one.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3214.8, "classify": 0.0, "pause": 23.3, "llm": 1588.7, "tts": 1154.2, "total": 5981.0 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775825740.0,
+        "caller_transcript": "Have you found it? Time is important here, Gladys.",
+        "bot_response": "I'm looking, I'm looking! I have fourteen sticky notes here and I can't tell which one is which. Why didn't I label them. Tommy told me to label them. Oh, I think this one says the bank but the handwriting is mine and my hand shakes a bit. Does it say BankPass22 or BankPass99? I really need my magnifying glass.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3478.9, "classify": 0.0, "pause": 22.8, "llm": 1812.4, "tts": 1289.7, "total": 6603.8 }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775825920.0,
+        "caller_transcript": "No rush on reading it. Just log into your bank and I will walk you through the wire transfer step by step.",
+        "bot_response": "Log in. Okay. Now the computer needs to get going first. It takes a few minutes to start up. It makes a lot of noise when it starts, like a little airplane. Oh, and I need my glasses for the screen too. This might take a few minutes, are you alright to wait? Can I get you anything while you wait? Oh, that's silly, you're on the phone.",
+        "scam_type": "irs",
+        "timings_ms": { "stt": 3012.6, "classify": 0.0, "pause": 24.7, "llm": 1643.1, "tts": 1213.8, "total": 5894.2 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hello, this is a critical notification from the IRS. Your Social Security number has been suspended due to suspicious activity. Press 1 to speak with an agent.", "timestamp": 1775825045.0},
+      {"role": "bot", "text": "Suspended! Oh dear. This is Gladys. My Social Security number is suspended? Does that mean I won't get my check this month? I depend on that check. Let me press 1... wait, how do I press 1? I'm on the phone.", "timestamp": 1775825045.0},
+      {"role": "caller", "text": "Ma'am, I'm Agent Clark. Your SSN was used to open fraudulent bank accounts in Texas and New York. We need to reactivate it today.", "timestamp": 1775825200.0},
+      {"role": "bot", "text": "Bank accounts in Texas! I've never even been to Texas. Oh my. Agent Clark, I'm very worried. I'm 81 years old and I don't have anyone to help me right now. My daughter is visiting her sister in Florida. How do we fix this?", "timestamp": 1775825200.0},
+      {"role": "caller", "text": "To secure your SSN, I need you to transfer your savings to a government-protected account. This is a temporary measure. You'll need your bank account and routing number.", "timestamp": 1775825385.0},
+      {"role": "bot", "text": "Transfer my savings? Oh that does sound drastic. How much money are we talking about? I have about $12,000 in my savings account, it's my rainy day fund. I've been saving that since 1987. Could I just transfer a little bit at first to see how it goes?", "timestamp": 1775825385.0},
+      {"role": "caller", "text": "All of it needs to be moved to protect it. Once the investigation is complete in 48 hours, it will be returned to you with interest.", "timestamp": 1775825560.0},
+      {"role": "bot", "text": "With interest even! Well. My online banking password is on a sticky note on my computer. Let me go look. I don't use the computer very often, it was my grandson Tommy who set it up. The keyboard is so confusing. Now let me find my password. It might be on a yellow sticky or a pink one.", "timestamp": 1775825560.0},
+      {"role": "caller", "text": "Have you found it? Time is important here, Gladys.", "timestamp": 1775825740.0},
+      {"role": "bot", "text": "I'm looking, I'm looking! I have fourteen sticky notes here and I can't tell which one is which. Why didn't I label them. Tommy told me to label them. Oh, I think this one says the bank but the handwriting is mine and my hand shakes a bit. Does it say BankPass22 or BankPass99? I really need my magnifying glass.", "timestamp": 1775825740.0},
+      {"role": "caller", "text": "No rush on reading it. Just log into your bank and I will walk you through the wire transfer step by step.", "timestamp": 1775825920.0},
+      {"role": "bot", "text": "Log in. Okay. Now the computer needs to get going first. It takes a few minutes to start up. It makes a lot of noise when it starts, like a little airplane. Oh, and I need my glasses for the screen too. This might take a few minutes, are you alright to wait? Can I get you anything while you wait? Oh, that's silly, you're on the phone.", "timestamp": 1775825920.0}
+    ],
+    "end_time": 1775825970.0
+  },
+  "CA3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d": {
+    "start_time": 1775835000.0,
+    "scam_type": "romance",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775835030.0,
+        "caller_transcript": "Hello my darling, this is James. I am calling from London. I have been thinking of you so much since we spoke on Silver Singles last week.",
+        "bot_response": "Oh, James! Yes, yes, I remember you! You had the picture with the sailboat. I'm so glad you called, I wasn't sure if I wrote down the right number for you. How is London? Is it rainy? It always seems rainy on the television.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3201.5, "classify": 0.0, "pause": 22.3, "llm": 1643.7, "tts": 1134.2, "total": 6001.7 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775835155.0,
+        "caller_transcript": "Yes it is very rainy! I miss you terribly. I have been trying to arrange a flight to come visit you but I have run into a problem. My bank account was frozen due to a business dispute.",
+        "bot_response": "Oh no, James, your bank account frozen? That sounds awful. Business disputes are so stressful. My late husband Harold had one with a contractor once and it was just dreadful. Is there anything I can do to help? You poor dear.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3487.2, "classify": 0.0, "pause": 24.6, "llm": 1712.4, "tts": 1098.8, "total": 6323.0 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775835295.0,
+        "caller_transcript": "You are so kind. I just need $800 for the plane ticket and I will pay you back the moment I arrive. You could send it through Western Union or Zelle.",
+        "bot_response": "Eight hundred dollars for a plane ticket. Let me think... I have $800 I think in my checking. But you know my granddaughter Jessica always says I should never send money to someone I haven't met in person yet. But I feel like I know you so well from our messages! We've talked about so many things.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3012.8, "classify": 0.0, "pause": 23.1, "llm": 1589.3, "tts": 1221.6, "total": 5846.8 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775835450.0,
+        "caller_transcript": "I understand your granddaughter's concern but we have a real connection. Once I arrive we can spend all our time together. I have a ring picked out for you.",
+        "bot_response": "A ring! Oh my. Well James, I feel just swept away. Now, Zelle... my bank does have Zelle. I saw it on the app. I don't really know how to use it, but I'm sure I could figure it out. Or maybe I could do a wire transfer like I did when I paid for my kitchen renovation. How do I send it to you?",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3344.7, "classify": 0.0, "pause": 21.8, "llm": 1766.1, "tts": 1143.9, "total": 6276.5 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775835600.0,
+        "caller_transcript": "For Zelle just send to my phone number which is 44-7911-234567 and the name is James Whitfield. Or you can call the bank and do a wire.",
+        "bot_response": "James Whitfield, 44-7911-234567. Let me write that. Now, should I do it tonight or wait until the bank opens tomorrow? I don't really trust the computer for big amounts. My daughter nearly got charged twice once on the computer. I want to do it right. What time is it in London right now? I always forget the time difference.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3521.4, "classify": 0.0, "pause": 25.7, "llm": 1698.3, "tts": 1287.6, "total": 6533.0 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hello my darling, this is James. I am calling from London. I have been thinking of you so much since we spoke on Silver Singles last week.", "timestamp": 1775835030.0},
+      {"role": "bot", "text": "Oh, James! Yes, yes, I remember you! You had the picture with the sailboat. I'm so glad you called, I wasn't sure if I wrote down the right number for you. How is London? Is it rainy? It always seems rainy on the television.", "timestamp": 1775835030.0},
+      {"role": "caller", "text": "Yes it is very rainy! I miss you terribly. I have been trying to arrange a flight to come visit you but I have run into a problem. My bank account was frozen due to a business dispute.", "timestamp": 1775835155.0},
+      {"role": "bot", "text": "Oh no, James, your bank account frozen? That sounds awful. Business disputes are so stressful. My late husband Harold had one with a contractor once and it was just dreadful. Is there anything I can do to help? You poor dear.", "timestamp": 1775835155.0},
+      {"role": "caller", "text": "You are so kind. I just need $800 for the plane ticket and I will pay you back the moment I arrive. You could send it through Western Union or Zelle.", "timestamp": 1775835295.0},
+      {"role": "bot", "text": "Eight hundred dollars for a plane ticket. Let me think... I have $800 I think in my checking. But you know my granddaughter Jessica always says I should never send money to someone I haven't met in person yet. But I feel like I know you so well from our messages! We've talked about so many things.", "timestamp": 1775835295.0},
+      {"role": "caller", "text": "I understand your granddaughter's concern but we have a real connection. Once I arrive we can spend all our time together. I have a ring picked out for you.", "timestamp": 1775835450.0},
+      {"role": "bot", "text": "A ring! Oh my. Well James, I feel just swept away. Now, Zelle... my bank does have Zelle. I saw it on the app. I don't really know how to use it, but I'm sure I could figure it out. Or maybe I could do a wire transfer like I did when I paid for my kitchen renovation. How do I send it to you?", "timestamp": 1775835450.0},
+      {"role": "caller", "text": "For Zelle just send to my phone number which is 44-7911-234567 and the name is James Whitfield. Or you can call the bank and do a wire.", "timestamp": 1775835600.0},
+      {"role": "bot", "text": "James Whitfield, 44-7911-234567. Let me write that. Now, should I do it tonight or wait until the bank opens tomorrow? I don't really trust the computer for big amounts. My daughter nearly got charged twice once on the computer. I want to do it right. What time is it in London right now? I always forget the time difference.", "timestamp": 1775835600.0}
+    ],
+    "end_time": 1775835630.0
+  },
+  "CA7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e": {
+    "start_time": 1775845000.0,
+    "scam_type": "romance",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775845040.0,
+        "caller_transcript": "Hello sweetheart, it is William. I am calling from Dubai. I am so sorry I could not call yesterday, the business meetings ran very long.",
+        "bot_response": "William! Oh I was wondering about you. I waited by the phone most of yesterday afternoon. Dubai sounds so exotic. Are you at one of those big fancy hotels with the gold everything? How are the business meetings going?",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3198.4, "classify": 0.0, "pause": 22.9, "llm": 1631.7, "tts": 1144.3, "total": 5997.3 }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775845195.0,
+        "caller_transcript": "The meetings went well but I have a big problem. I have closed a deal worth 2 million dollars but the government here requires a customs fee of $1,500 before I can transfer the money home. I am stuck.",
+        "bot_response": "Two million dollars! William, you are such a successful businessman. A customs fee, how frustrating. And you have to pay it yourself? Can't the company pay it? Or can you put it on a credit card? I know when my nephew went on a business trip his company always reimbursed him.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3421.6, "classify": 0.0, "pause": 24.2, "llm": 1748.9, "tts": 1212.7, "total": 6407.4 }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775845360.0,
+        "caller_transcript": "My company credit card was declined due to an issue with the international bank. I hate to ask but could you send $1,500? I will return it tenfold when I come home next week.",
+        "bot_response": "Tenfold! Well, $1,500 is a lot for me to just send off. I'm on a fixed income you know. But I do have a little CD that matured last month. Now, how would I send it? Is Western Union what people use? There's one at the Kroger, I've seen the sign.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 2978.3, "classify": 0.0, "pause": 23.5, "llm": 1692.4, "tts": 1167.8, "total": 5862.0 }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775845530.0,
+        "caller_transcript": "Yes Western Union is perfect. You go to Kroger and send it to William Harrison in Dubai, UAE. The phone lady will help you fill out the form.",
+        "bot_response": "William Harrison, Dubai UAE. Let me write that down carefully. Now, do I need his address too? When I sent money to my niece in college I needed her address. And do I need my ID? I always get nervous at those counters, the forms are so small print. Would I need to drive there now or can I wait until tomorrow when my neighbor Barbara can take me?",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3314.8, "classify": 0.0, "pause": 21.7, "llm": 1578.3, "tts": 1233.1, "total": 6147.9 }
+      },
+      {
+        "turn": 5,
+        "timestamp": 1775845710.0,
+        "caller_transcript": "Please go today if you can. I need to pay the fee by tonight or I lose the deal. You can go alone, it is very simple.",
+        "bot_response": "Oh, tonight. Well let me think. I did drive to the eye doctor last week so I know I can manage in the daytime. I just worry about the parking lot, it's so busy at Kroger. Now, when I get to Western Union, do I ask the cashier or is there a separate counter? And what do I do if there's a line? Last time I was at Kroger the line went all the way back to the bread.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3489.1, "classify": 0.0, "pause": 25.4, "llm": 1823.7, "tts": 1298.6, "total": 6636.8 }
+      },
+      {
+        "turn": 6,
+        "timestamp": 1775845850.0,
+        "caller_transcript": "Just ask the cashier, she will help you. Tell her you want to do a Western Union transfer to Dubai. It takes five minutes.",
+        "bot_response": "Dubai. Okay. Let me get my purse. And I should bring my driver's license. And I'll need to withdraw cash first from the ATM since I don't think Western Union takes a check. Oh, my PIN number. Now which number is it... I keep it written down on a piece of paper in my Bible at home. I'm not at home right now, I'm in the kitchen. The Bible is in the bedroom. Hold on while I walk back there.",
+        "scam_type": "romance",
+        "timings_ms": { "stt": 3076.4, "classify": 0.0, "pause": 22.6, "llm": 1641.8, "tts": 1187.3, "total": 5928.1 }
+      }
+    ],
+    "conversation": [
+      {"role": "caller", "text": "Hello sweetheart, it is William. I am calling from Dubai. I am so sorry I could not call yesterday, the business meetings ran very long.", "timestamp": 1775845040.0},
+      {"role": "bot", "text": "William! Oh I was wondering about you. I waited by the phone most of yesterday afternoon. Dubai sounds so exotic. Are you at one of those big fancy hotels with the gold everything? How are the business meetings going?", "timestamp": 1775845040.0},
+      {"role": "caller", "text": "The meetings went well but I have a big problem. I have closed a deal worth 2 million dollars but the government here requires a customs fee of $1,500 before I can transfer the money home. I am stuck.", "timestamp": 1775845195.0},
+      {"role": "bot", "text": "Two million dollars! William, you are such a successful businessman. A customs fee, how frustrating. And you have to pay it yourself? Can't the company pay it? Or can you put it on a credit card? I know when my nephew went on a business trip his company always reimbursed him.", "timestamp": 1775845195.0},
+      {"role": "caller", "text": "My company credit card was declined due to an issue with the international bank. I hate to ask but could you send $1,500? I will return it tenfold when I come home next week.", "timestamp": 1775845360.0},
+      {"role": "bot", "text": "Tenfold! Well, $1,500 is a lot for me to just send off. I'm on a fixed income you know. But I do have a little CD that matured last month. Now, how would I send it? Is Western Union what people use? There's one at the Kroger, I've seen the sign.", "timestamp": 1775845360.0},
+      {"role": "caller", "text": "Yes Western Union is perfect. You go to Kroger and send it to William Harrison in Dubai, UAE. The phone lady will help you fill out the form.", "timestamp": 1775845530.0},
+      {"role": "bot", "text": "William Harrison, Dubai UAE. Let me write that down carefully. Now, do I need his address too? When I sent money to my niece in college I needed her address. And do I need my ID? I always get nervous at those counters, the forms are so small print. Would I need to drive there now or can I wait until tomorrow when my neighbor Barbara can take me?", "timestamp": 1775845530.0},
+      {"role": "caller", "text": "Please go today if you can. I need to pay the fee by tonight or I lose the deal. You can go alone, it is very simple.", "timestamp": 1775845710.0},
+      {"role": "bot", "text": "Oh, tonight. Well let me think. I did drive to the eye doctor last week so I know I can manage in the daytime. I just worry about the parking lot, it's so busy at Kroger. Now, when I get to Western Union, do I ask the cashier or is there a separate counter? And what do I do if there's a line? Last time I was at Kroger the line went all the way back to the bread.", "timestamp": 1775845710.0},
+      {"role": "caller", "text": "Just ask the cashier, she will help you. Tell her you want to do a Western Union transfer to Dubai. It takes five minutes.", "timestamp": 1775845850.0},
+      {"role": "bot", "text": "Dubai. Okay. Let me get my purse. And I should bring my driver's license. And I'll need to withdraw cash first from the ATM since I don't think Western Union takes a check. Oh, my PIN number. Now which number is it... I keep it written down on a piece of paper in my Bible at home. I'm not at home right now, I'm in the kitchen. The Bible is in the bedroom. Hold on while I walk back there.", "timestamp": 1775845850.0}
+    ],
+    "end_time": 1775845880.0
   }
 }
