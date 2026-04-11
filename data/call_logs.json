@@ -4687,5 +4687,257 @@
       }
     ],
     "end_time": 1775837501.7620032
+  },
+  "CAc385c6d5d14e9b65a974c8c314c1a5f2": {
+    "start_time": 1775843194.4771025,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775843240.4102058,
+        "caller_transcript": "Hey, Harold, this is Ethan from Medicare. We have a concern about your account. We have detected fraud, and unfortunately, we are going to need your Medicare ID, your account number, and your social security number as soon as possible. This is very important, Harold. Can you please do this for me?",
+        "bot_response": "Oh, goodness me, Ethan... um, hold on, I just got out of the hospital, so I'm a little, uh, fuzzy still. My Medicare ID... was it TK-4-2-1? No, wait, I think I already said that... or was it FN-",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 3701.8,
+          "classify": 1.0,
+          "pause": 20.8,
+          "llm": 2287.1,
+          "tts": 1187.2,
+          "total": 7201.3
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775843269.149506,
+        "caller_transcript": "Could you get your glasses and just recite this word for word, number for number? It's very important. You give me the correct answer.",
+        "bot_response": "Oh, my glasses, yes, I need to find 'em... hold on, let me look around here. You want me to say the number exactly? Well, I think it was... oh wait, I just saw my TV, maybe I can find it there. Sorry, Ethan, can",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1735.0,
+          "classify": 0.0,
+          "pause": 23.1,
+          "llm": 903.4,
+          "tts": 1067.8,
+          "total": 3730.5
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775843297.4413931,
+        "caller_transcript": "I'm going to call the police if you do not give me your Medicare number right now. You need to give me your Medicare number correctly as soon as possible.",
+        "bot_response": "Oh my, Ethan, don't get the police involved, please! I'm trying, really, I am. Um, my Medicare card, I remember it's a funny number... I think it starts with an FN... or was it a TK? Gosh, I get all mixed up sometimes. Please,",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1304.5,
+          "classify": 0.0,
+          "pause": 28.6,
+          "llm": 1527.9,
+          "tts": 1194.9,
+          "total": 4056.8
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hey, Harold, this is Ethan from Medicare. We have a concern about your account. We have detected fraud, and unfortunately, we are going to need your Medicare ID, your account number, and your social security number as soon as possible. This is very important, Harold. Can you please do this for me?",
+        "timestamp": 1775843240.4102058
+      },
+      {
+        "role": "bot",
+        "text": "Oh, goodness me, Ethan... um, hold on, I just got out of the hospital, so I'm a little, uh, fuzzy still. My Medicare ID... was it TK-4-2-1? No, wait, I think I already said that... or was it FN-",
+        "timestamp": 1775843240.4102058
+      },
+      {
+        "role": "caller",
+        "text": "Could you get your glasses and just recite this word for word, number for number? It's very important. You give me the correct answer.",
+        "timestamp": 1775843269.149506
+      },
+      {
+        "role": "bot",
+        "text": "Oh, my glasses, yes, I need to find 'em... hold on, let me look around here. You want me to say the number exactly? Well, I think it was... oh wait, I just saw my TV, maybe I can find it there. Sorry, Ethan, can",
+        "timestamp": 1775843269.149506
+      },
+      {
+        "role": "caller",
+        "text": "I'm going to call the police if you do not give me your Medicare number right now. You need to give me your Medicare number correctly as soon as possible.",
+        "timestamp": 1775843297.4413931
+      },
+      {
+        "role": "bot",
+        "text": "Oh my, Ethan, don't get the police involved, please! I'm trying, really, I am. Um, my Medicare card, I remember it's a funny number... I think it starts with an FN... or was it a TK? Gosh, I get all mixed up sometimes. Please,",
+        "timestamp": 1775843297.4413931
+      }
+    ],
+    "end_time": 1775843297.4413931
+  },
+  "CA8e9030ce18f024ad0b60dcfd6bb6e2da": {
+    "start_time": 1775849243.205507,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775849289.7315474,
+        "caller_transcript": "Hi, Harold, this is Ethan from Medicare. We have a very important topic to talk to you about today. It's about your Medicare account. Do you have time to talk? Bill, are you there?",
+        "bot_response": "Oh, well, hello Ethan... Bill? Oh, wait, no, I don\u2019t think I know Bill. Uh, you said Medicare, huh? Hold on, let me find my glasses\u2026 and maybe my wallet, I wanna make sure I got everything. Uh, so what about my Medicare",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 5096.3,
+          "classify": 0.0,
+          "pause": 21.6,
+          "llm": 1437.2,
+          "tts": 3483.5,
+          "total": 10040.2
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775849324.9633753,
+        "caller_transcript": "But Harold, yes, it's very important. We have detected fraud in your Medicare account, and if we cannot get this resolved soon, there may be legal ac-",
+        "bot_response": "Oh my goodness, fraud? That sounds serious... uh, hold on, Ethan, let me see... I think I have my Medicare card somewhere here. Wait, is it in my wallet? No, maybe I put it on the table... Oh dear, I need to find it. Can you",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 6645.8,
+          "classify": 0.0,
+          "pause": 23.2,
+          "llm": 1203.0,
+          "tts": 1273.0,
+          "total": 9146.2
+        }
+      },
+      {
+        "turn": 3,
+        "timestamp": 1775849355.1444404,
+        "caller_transcript": "And Harold, please do this as soon as possible. We are thinking about oppressing legal action today if this isn't resolved. So please, Harold, do this.",
+        "bot_response": "Oh, oh, legal action? That sounds awful! I gotta find my reading glasses first... they're somewhere around here. Uh, Ethan, wait just a sec... can you repeat that? I didn't quite catch it, I was distracted looking for my glasses.",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2684.6,
+          "classify": 0.0,
+          "pause": 21.5,
+          "llm": 755.0,
+          "tts": 1346.4,
+          "total": 4808.6
+        }
+      },
+      {
+        "turn": 4,
+        "timestamp": 1775849385.952239,
+        "caller_transcript": "I'm going to be straight with you. We're calling the police today if we do not get your Medicare ID number.",
+        "bot_response": "Oh, you\u2019re gonna, uh, call the police? That sounds pretty serious... Now, my Medicare ID number, uh, I think it\u2019s... oh, wait, hold on... I\u2019m pretty sure it\u2019s FN-2-1-8-7? No, no, wait,",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 2101.9,
+          "classify": 0.0,
+          "pause": 27.1,
+          "llm": 1869.3,
+          "tts": 1135.5,
+          "total": 5135.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Hi, Harold, this is Ethan from Medicare. We have a very important topic to talk to you about today. It's about your Medicare account. Do you have time to talk? Bill, are you there?",
+        "timestamp": 1775849289.7315474
+      },
+      {
+        "role": "bot",
+        "text": "Oh, well, hello Ethan... Bill? Oh, wait, no, I don\u2019t think I know Bill. Uh, you said Medicare, huh? Hold on, let me find my glasses\u2026 and maybe my wallet, I wanna make sure I got everything. Uh, so what about my Medicare",
+        "timestamp": 1775849289.7315474
+      },
+      {
+        "role": "caller",
+        "text": "But Harold, yes, it's very important. We have detected fraud in your Medicare account, and if we cannot get this resolved soon, there may be legal ac-",
+        "timestamp": 1775849324.9633753
+      },
+      {
+        "role": "bot",
+        "text": "Oh my goodness, fraud? That sounds serious... uh, hold on, Ethan, let me see... I think I have my Medicare card somewhere here. Wait, is it in my wallet? No, maybe I put it on the table... Oh dear, I need to find it. Can you",
+        "timestamp": 1775849324.9633753
+      },
+      {
+        "role": "caller",
+        "text": "And Harold, please do this as soon as possible. We are thinking about oppressing legal action today if this isn't resolved. So please, Harold, do this.",
+        "timestamp": 1775849355.1444404
+      },
+      {
+        "role": "bot",
+        "text": "Oh, oh, legal action? That sounds awful! I gotta find my reading glasses first... they're somewhere around here. Uh, Ethan, wait just a sec... can you repeat that? I didn't quite catch it, I was distracted looking for my glasses.",
+        "timestamp": 1775849355.1444404
+      },
+      {
+        "role": "caller",
+        "text": "I'm going to be straight with you. We're calling the police today if we do not get your Medicare ID number.",
+        "timestamp": 1775849385.952239
+      },
+      {
+        "role": "bot",
+        "text": "Oh, you\u2019re gonna, uh, call the police? That sounds pretty serious... Now, my Medicare ID number, uh, I think it\u2019s... oh, wait, hold on... I\u2019m pretty sure it\u2019s FN-2-1-8-7? No, no, wait,",
+        "timestamp": 1775849385.952239
+      }
+    ],
+    "end_time": 1775849385.952239
+  },
+  "CAbc224be080216d6bd23be64522ceb61d": {
+    "start_time": 1775865343.4921613,
+    "scam_type": "medicare",
+    "turns": [
+      {
+        "turn": 1,
+        "timestamp": 1775865390.277791,
+        "caller_transcript": "Yes. Hi, Harold. This is Eric. I'm calling from Medicare, and I'm calling because we have detected fraud on your account. I need you to confirm several details for me. I need you to give me your Medicare ID, and I also need you to provide your Social Security number.",
+        "bot_response": "Oh, hello Eric. Medicare, huh? That sounds serious... Now what was that number again? Hold on, let me find my wallet... Oh wait, I think I got it here somewhere. Medicare ID? It's... hmm... 6427... no, wait, 6327... or",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 3789.2,
+          "classify": 0.8,
+          "pause": 27.2,
+          "llm": 1788.2,
+          "tts": 1354.2,
+          "total": 6961.5
+        }
+      },
+      {
+        "turn": 2,
+        "timestamp": 1775865423.2214546,
+        "caller_transcript": "No, I need you to get the card out of your wallet and just read me the number.",
+        "bot_response": "Oh, I see, you want me to just read it off the card. Hold on, let me grab my glasses first... okay, okay, here we go... It's a bit foggy today, you know, with this weather. The number should be... uh... hold on... right here",
+        "scam_type": "medicare",
+        "timings_ms": {
+          "stt": 1784.6,
+          "classify": 0.0,
+          "pause": 24.2,
+          "llm": 1509.0,
+          "tts": 1247.6,
+          "total": 4567.3
+        }
+      }
+    ],
+    "conversation": [
+      {
+        "role": "caller",
+        "text": "Yes. Hi, Harold. This is Eric. I'm calling from Medicare, and I'm calling because we have detected fraud on your account. I need you to confirm several details for me. I need you to give me your Medicare ID, and I also need you to provide your Social Security number.",
+        "timestamp": 1775865390.277791
+      },
+      {
+        "role": "bot",
+        "text": "Oh, hello Eric. Medicare, huh? That sounds serious... Now what was that number again? Hold on, let me find my wallet... Oh wait, I think I got it here somewhere. Medicare ID? It's... hmm... 6427... no, wait, 6327... or",
+        "timestamp": 1775865390.277791
+      },
+      {
+        "role": "caller",
+        "text": "No, I need you to get the card out of your wallet and just read me the number.",
+        "timestamp": 1775865423.2214546
+      },
+      {
+        "role": "bot",
+        "text": "Oh, I see, you want me to just read it off the card. Hold on, let me grab my glasses first... okay, okay, here we go... It's a bit foggy today, you know, with this weather. The number should be... uh... hold on... right here",
+        "timestamp": 1775865423.2214546
+      }
+    ],
+    "end_time": 1775865423.2214546
   }
 }

@@ -329,6 +329,24 @@
       "duration": 160.9,
       "turns": 4,
       "scam_type": "generic"
+    },
+    {
+      "call_id": "CAc385c6d5d14e9b65a974c8c314c1a5f2",
+      "duration": 103.0,
+      "turns": 3,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CA8e9030ce18f024ad0b60dcfd6bb6e2da",
+      "duration": 142.7,
+      "turns": 4,
+      "scam_type": "medicare"
+    },
+    {
+      "call_id": "CAbc224be080216d6bd23be64522ceb61d",
+      "duration": 79.7,
+      "turns": 2,
+      "scam_type": "medicare"
     }
   ]
 }
